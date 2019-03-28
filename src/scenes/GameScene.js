@@ -45,7 +45,7 @@ class GameScene extends Phaser.Scene {
         // Background image
         this.add.image(0, 50, 'background-distrito');
 
-        this.add.text(420, 92, 'sprint\nplanning', { fontSize: '22px', fill: '#000' });
+        this.add.text(450, 92, 'sprint\nplanning\n⬇️', { fontSize: '22px', fill: '#000' });
 
         // Places to warp to (from pipes). These coordinates is used also to define current room (see below)
         this.destinations = {};
