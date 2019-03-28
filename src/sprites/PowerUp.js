@@ -22,7 +22,7 @@ export default class PowerUp extends Phaser.GameObjects.Sprite {
         if (this.type === 'mushroom' || this.type === '1up') {
             this.body.velocity.y = -150;
         } else if (this.type === 'flower') {
-            this.setDepth(-100);
+            this.setDepth(100);
             this.body.allowGravity = false;
             this.body.setVelocity(0, 0);
             this.direction = 0;
