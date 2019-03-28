@@ -3,9 +3,10 @@ export default class Mario extends Phaser.GameObjects.Sprite {
         super(config.scene, config.x, config.y, config.key);
         config.scene.physics.world.enable(this);
         config.scene.add.existing(this);
-        this.acceleration = 600;
+        this.acceleration = 300;
         this.body.maxVelocity.x = 200;
         this.body.maxVelocity.y = 500;
+
         this.animSuffix = '';
         this.small();
 
@@ -41,13 +42,13 @@ export default class Mario extends Phaser.GameObjects.Sprite {
             this.scene.scene.start('TitleScene');
 
             // If Mario falls down a cliff or died, just let him drop from the sky and prentend like nothing happened
-            // this.y = -32;
-            // if(this.x<16){
-            //   this.x = 16;
-            // }
-            // this.alive = true;
-            // this.scene.music.seek = 0;
-            // this.scene.music.play();
+            this.y = -32;
+            if (this.x < 16) {
+                this.x = 16;
+            }
+            this.alive = true;
+            this.scene.music.seek = 0;
+            this.scene.music.play();
         } else if (this.y > 240 && this.alive) {
             this.die();
         }
@@ -177,6 +178,7 @@ export default class Mario extends Phaser.GameObjects.Sprite {
 
     run(vel) {
         this.body.setAccelerationX(vel);
+        // this.body.setVelocityX(Math.floor(vel));
     }
 
     jump() {

@@ -44,7 +44,7 @@ class TitleScene extends Phaser.Scene {
         el.style.width = 400 * multiplier + 'px';
         el.style.height = 240 * multiplier + 'px';
 
-        this.pressX = this.add.bitmapText(16 * 8 + 4, 8 * 16, 'font', 'PRESS X TO START', 8);
+        this.pressX = this.add.bitmapText(15 * 8 + 4, 8 * 16, 'font', 'PULSA X PARA EMPEZAR', 8);
         this.blink = 1000;
 
         this.startKey = this.input.keyboard.addKey(Phaser.Input.Keyboard.KeyCodes.X);
