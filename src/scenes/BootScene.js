@@ -26,6 +26,8 @@ class BootScene extends Phaser.Scene {
 
         this.load.image('background-clouds', 'assets/images/clouds.png'); // 16-bit later
 
+        this.load.image('background-distrito', 'assets/images/distrito_repeated.png');
+
         // Tilemap with a lot of objects and tile-properties tricks
         this.load.tilemapTiledJSON('map', 'assets/tilemaps/super-mario.json');
 

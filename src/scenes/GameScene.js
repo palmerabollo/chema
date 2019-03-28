@@ -40,6 +40,9 @@ class GameScene extends Phaser.Scene {
             this.attractMode = null;
         }
 
+        // Background image
+        this.add.image(100, 100, 'background-distrito');
+
         // Places to warp to (from pipes). These coordinates is used also to define current room (see below)
         this.destinations = {};
 
