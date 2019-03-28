@@ -30,7 +30,7 @@ export default class Goomba extends Enemy {
         // The Goomba stopped, better try to walk in the other direction.
         if (this.body.velocity.x === 0) {
             this.direction = -this.direction;
-            this.body.velocity.x = this.direction;
+            this.body.velocity.x = this.direction / 2;
         }
     }
 

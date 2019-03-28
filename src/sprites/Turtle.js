@@ -50,7 +50,8 @@ export default class Turtle extends Enemy {
             return;
         }
 
-        if (enemy.verticalHit(enemy, mario)) {
+        // guido: true para que la tortuga no te mate
+        if (true || enemy.verticalHit(enemy, mario)) {
             // get points
             enemy.scene.updateScore(100);
             if (!enemy.sliding || (enemy.sliding && enemy.body.velocity.x === 0)) {

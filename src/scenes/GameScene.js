@@ -19,7 +19,7 @@ class GameScene extends Phaser.Scene {
     }
 
     create() {
-        /** guido
+        /**
         var fallingObjects = this.physics.add.staticGroup();
         var sprite = this.physics.add.sprite(50, 10, 'falling');
         sprite.body.gravity.y = 0;
@@ -27,6 +27,8 @@ class GameScene extends Phaser.Scene {
         // this.physics.add.collider(player, sprite);
         // console.log(sprite); // sprite.body.gravity.y = 100;
         */
+
+
 
         // This scene is either called to run in attract mode in the background of the title screen
         // or for actual gameplay. Attract mode is based on a JSON-recording.
@@ -41,7 +43,9 @@ class GameScene extends Phaser.Scene {
         }
 
         // Background image
-        this.add.image(100, 100, 'background-distrito');
+        this.add.image(0, 50, 'background-distrito');
+
+        this.add.text(420, 92, 'sprint\nplanning', { fontSize: '22px', fill: '#000' });
 
         // Places to warp to (from pipes). These coordinates is used also to define current room (see below)
         this.destinations = {};
