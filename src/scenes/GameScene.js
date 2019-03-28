@@ -18,14 +18,17 @@ class GameScene extends Phaser.Scene {
         this.load.scenePlugin('animatedTiles', AnimatedTiles, 'animatedTiles', 'animatedTiles');
     }
 
-
     fallppt() {
         var fallingObjects = this.physics.add.staticGroup();
-        var sprite = this.physics.add.sprite(this.mario.x, 10, 'powerpoint');
-        sprite.body.gravity.y = 0;
-        fallingObjects.add(sprite);
-        // this.physics.add.collider(player, sprite);
-        // console.log(sprite); // sprite.body.gravity.y = 100;
+        var sprite1 = this.physics.add.sprite(this.mario.x, 0, 'powerpoint');
+        var sprite2 = this.physics.add.sprite(this.mario.x, 40, 'powerpoint');
+        var sprite3 = this.physics.add.sprite(this.mario.x, 80, 'powerpoint');
+
+        [sprite1, sprite2, sprite3].forEach(s => {
+            s.displayWidth = 28;
+            s.displayHeight = 28;
+            fallingObjects.add(s);
+        });
     }
 
     create() {
@@ -55,7 +58,7 @@ class GameScene extends Phaser.Scene {
         // Background image
         this.add.image(0, 100, 'background-distrito');
 
-        
+
 
         var text = this.add.text(430, 108, ' sprint\nplanning\n    ⬇️', { font: '18px Arial', fill: 'white' });
         text.setShadow(2, 2, 'rgba(0,0,0,0.3)', 2);

@@ -4,8 +4,8 @@ export default class Mario extends Phaser.GameObjects.Sprite {
         config.scene.physics.world.enable(this);
         config.scene.add.existing(this);
         this.acceleration = 300;
-        this.body.maxVelocity.x = 200;
-        this.body.maxVelocity.y = 500;
+        this.body.maxVelocity.x = 100;
+        this.body.maxVelocity.y = 300;
 
         this.animSuffix = '';
         this.small();
@@ -222,6 +222,7 @@ export default class Mario extends Phaser.GameObjects.Sprite {
 
                 this.wasHurt = 2000;
             } else {
+                // comment this to make mario inmortal
                 this.die();
             }
         }

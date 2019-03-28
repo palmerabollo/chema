@@ -53,7 +53,7 @@ export default class Enemy extends Phaser.GameObjects.Sprite {
         if (!mario.alive) {
             return false;
         }
-        return mario.body.velocity.y >= 0 && (mario.body.y + mario.body.height) - enemy.body.y < 10;
+        return mario.body.velocity.y >= 0 && (mario.body.y + mario.body.height) - enemy.body.y < 30;
     }
 
     hurtMario(enemy, mario) {
