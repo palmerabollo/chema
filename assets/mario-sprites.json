@@ -1102,9 +1102,9 @@
 					}
 				},
 				{
-					"filename": "mario/dead",
+					"filename": "powerup/star2",
 					"rotated": false,
-					"trimmed": true,
+					"trimmed": false,
 					"sourceSize": {
 						"w": 16,
 						"h": 16
@@ -1113,17 +1113,17 @@
 						"x": 0,
 						"y": 0,
 						"w": 16,
-						"h": 15
+						"h": 16
 					},
 					"frame": {
 						"x": 308,
 						"y": 208,
 						"w": 16,
-						"h": 15
+						"h": 16
 					}
 				},
 				{
-					"filename": "powerup/star2",
+					"filename": "powerup/star3",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -1144,7 +1144,7 @@
 					}
 				},
 				{
-					"filename": "powerup/star3",
+					"filename": "powerup/star4",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
@@ -1186,27 +1186,6 @@
 					}
 				},
 				{
-					"filename": "powerup/star4",
-					"rotated": false,
-					"trimmed": false,
-					"sourceSize": {
-						"w": 16,
-						"h": 16
-					},
-					"spriteSourceSize": {
-						"x": 0,
-						"y": 0,
-						"w": 16,
-						"h": 16
-					},
-					"frame": {
-						"x": 308,
-						"y": 225,
-						"w": 16,
-						"h": 16
-					}
-				},
-				{
 					"filename": "powerup/super",
 					"rotated": false,
 					"trimmed": false,
@@ -1221,9 +1200,30 @@
 						"h": 16
 					},
 					"frame": {
-						"x": 326,
+						"x": 308,
 						"y": 226,
 						"w": 16,
+						"h": 16
+					}
+				},
+				{
+					"filename": "mario/climb1",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 16
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 0,
+						"w": 15,
+						"h": 16
+					},
+					"frame": {
+						"x": 326,
+						"y": 226,
+						"w": 15,
 						"h": 16
 					}
 				},
@@ -1312,27 +1312,6 @@
 					}
 				},
 				{
-					"filename": "mario/climb1",
-					"rotated": false,
-					"trimmed": true,
-					"sourceSize": {
-						"w": 16,
-						"h": 16
-					},
-					"spriteSourceSize": {
-						"x": 1,
-						"y": 0,
-						"w": 15,
-						"h": 16
-					},
-					"frame": {
-						"x": 365,
-						"y": 144,
-						"w": 15,
-						"h": 16
-					}
-				},
-				{
 					"filename": "mario/swim1",
 					"rotated": false,
 					"trimmed": true,
@@ -1347,8 +1326,8 @@
 						"h": 16
 					},
 					"frame": {
-						"x": 344,
-						"y": 160,
+						"x": 365,
+						"y": 144,
 						"w": 15,
 						"h": 16
 					}
@@ -1369,7 +1348,7 @@
 					},
 					"frame": {
 						"x": 344,
-						"y": 178,
+						"y": 160,
 						"w": 15,
 						"h": 16
 					}
@@ -1390,7 +1369,7 @@
 					},
 					"frame": {
 						"x": 344,
-						"y": 196,
+						"y": 178,
 						"w": 15,
 						"h": 16
 					}
@@ -1411,7 +1390,7 @@
 					},
 					"frame": {
 						"x": 344,
-						"y": 214,
+						"y": 196,
 						"w": 15,
 						"h": 16
 					}
@@ -1459,7 +1438,49 @@
 					}
 				},
 				{
+					"filename": "coin/coin1",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 10,
+						"h": 14
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 10,
+						"h": 14
+					},
+					"frame": {
+						"x": 377,
+						"y": 180,
+						"w": 10,
+						"h": 14
+					}
+				},
+				{
 					"filename": "mario/bend",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 16
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 0,
+						"w": 14,
+						"h": 16
+					},
+					"frame": {
+						"x": 361,
+						"y": 198,
+						"w": 14,
+						"h": 16
+					}
+				},
+				{
+					"filename": "mario/dead",
 					"rotated": false,
 					"trimmed": true,
 					"sourceSize": {
@@ -1585,27 +1606,6 @@
 					}
 				},
 				{
-					"filename": "coin/coin1",
-					"rotated": false,
-					"trimmed": false,
-					"sourceSize": {
-						"w": 10,
-						"h": 14
-					},
-					"spriteSourceSize": {
-						"x": 0,
-						"y": 0,
-						"w": 10,
-						"h": 14
-					},
-					"frame": {
-						"x": 377,
-						"y": 180,
-						"w": 10,
-						"h": 14
-					}
-				},
-				{
 					"filename": "coin/coin2",
 					"rotated": false,
 					"trimmed": false,
@@ -1662,8 +1662,8 @@
 						"h": 16
 					},
 					"frame": {
-						"x": 361,
-						"y": 216,
+						"x": 344,
+						"y": 214,
 						"w": 14,
 						"h": 16
 					}
@@ -1683,9 +1683,30 @@
 						"h": 14
 					},
 					"frame": {
-						"x": 377,
-						"y": 228,
+						"x": 360,
+						"y": 216,
 						"w": 10,
+						"h": 14
+					}
+				},
+				{
+					"filename": "coin/spin3",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 10,
+						"h": 14
+					},
+					"spriteSourceSize": {
+						"x": 3,
+						"y": 0,
+						"w": 3,
+						"h": 14
+					},
+					"frame": {
+						"x": 372,
+						"y": 216,
+						"w": 3,
 						"h": 14
 					}
 				},
@@ -1704,8 +1725,8 @@
 						"h": 10
 					},
 					"frame": {
-						"x": 344,
-						"y": 232,
+						"x": 377,
+						"y": 228,
 						"w": 10,
 						"h": 10
 					}
@@ -1732,27 +1753,6 @@
 					}
 				},
 				{
-					"filename": "coin/spin3",
-					"rotated": false,
-					"trimmed": true,
-					"sourceSize": {
-						"w": 10,
-						"h": 14
-					},
-					"spriteSourceSize": {
-						"x": 3,
-						"y": 0,
-						"w": 3,
-						"h": 14
-					},
-					"frame": {
-						"x": 356,
-						"y": 232,
-						"w": 3,
-						"h": 14
-					}
-				},
-				{
 					"filename": "coin/spin4",
 					"rotated": false,
 					"trimmed": true,
@@ -1767,10 +1767,52 @@
 						"h": 14
 					},
 					"frame": {
-						"x": 361,
-						"y": 234,
+						"x": 343,
+						"y": 232,
 						"w": 6,
 						"h": 14
+					}
+				},
+				{
+					"filename": "fire/fly4",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 8,
+						"h": 8
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 8,
+						"h": 8
+					},
+					"frame": {
+						"x": 351,
+						"y": 232,
+						"w": 8,
+						"h": 8
+					}
+				},
+				{
+					"filename": "other/cloud",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 8,
+						"h": 8
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 8,
+						"h": 8
+					},
+					"frame": {
+						"x": 361,
+						"y": 232,
+						"w": 8,
+						"h": 8
 					}
 				},
 				{
@@ -1795,48 +1837,6 @@
 					}
 				},
 				{
-					"filename": "fire/fly4",
-					"rotated": false,
-					"trimmed": false,
-					"sourceSize": {
-						"w": 8,
-						"h": 8
-					},
-					"spriteSourceSize": {
-						"x": 0,
-						"y": 0,
-						"w": 8,
-						"h": 8
-					},
-					"frame": {
-						"x": 290,
-						"y": 240,
-						"w": 8,
-						"h": 8
-					}
-				},
-				{
-					"filename": "other/cloud",
-					"rotated": false,
-					"trimmed": false,
-					"sourceSize": {
-						"w": 8,
-						"h": 8
-					},
-					"spriteSourceSize": {
-						"x": 0,
-						"y": 0,
-						"w": 8,
-						"h": 8
-					},
-					"frame": {
-						"x": 300,
-						"y": 243,
-						"w": 8,
-						"h": 8
-					}
-				},
-				{
 					"filename": "other/platform",
 					"rotated": false,
 					"trimmed": false,
@@ -1851,8 +1851,8 @@
 						"h": 8
 					},
 					"frame": {
-						"x": 310,
-						"y": 243,
+						"x": 351,
+						"y": 242,
 						"w": 8,
 						"h": 8
 					}
@@ -1863,6 +1863,6 @@
 	"meta": {
 		"app": "https://www.codeandweb.com/texturepacker",
 		"version": "3.0",
-		"smartupdate": "$TexturePacker:SmartUpdate:bdc99719554127c0bd64f5f2e45349ad:c93c8a5c78ba55b59b43a6bd9dcff119:4f58bece13d73f4757a743d8358f7b7b$"
+		"smartupdate": "$TexturePacker:SmartUpdate:ee8052ae372854b8ba84096fe4865f22:9f2bf0ab43fe7abd7220f5ac7fcb189a:4f58bece13d73f4757a743d8358f7b7b$"
 	}
 }
