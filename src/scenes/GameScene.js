@@ -53,7 +53,7 @@ class GameScene extends Phaser.Scene {
         }
 
         // Background image
-        // this.add.image(0, 100, 'background-distrito');
+        this.add.image(0, 100, 'background-distrito');
 
         
 
