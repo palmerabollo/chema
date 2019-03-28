@@ -14,10 +14,20 @@ class GameScene extends Phaser.Scene {
     }
 
     preload() {
+        // this.load.image('falling', 'assets/images/falling.png');
         this.load.scenePlugin('animatedTiles', AnimatedTiles, 'animatedTiles', 'animatedTiles');
     }
 
     create() {
+        /** guido
+        var fallingObjects = this.physics.add.staticGroup();
+        var sprite = this.physics.add.sprite(50, 10, 'falling');
+        sprite.body.gravity.y = 0;
+        fallingObjects.add(sprite);
+        // this.physics.add.collider(player, sprite);
+        // console.log(sprite); // sprite.body.gravity.y = 100;
+        */
+
         // This scene is either called to run in attract mode in the background of the title screen
         // or for actual gameplay. Attract mode is based on a JSON-recording.
         if (this.registry.get('attractMode')) {
@@ -622,10 +632,10 @@ class GameScene extends Phaser.Scene {
     }
 
     createHUD() {
-        const hud = this.add.bitmapText(5 * 8, 8, 'font', 'MARIO                      TIME', 8);
+        const hud = this.add.bitmapText(5 * 8, 8, 'font', 'CHEMA             DIAS PARA LA RELEASE', 8);
         hud.setScrollFactor(0, 0);
         this.levelTimer = {
-            textObject: this.add.bitmapText(36 * 8, 16, 'font', '255', 8),
+            textObject: this.add.bitmapText(40 * 8, 16, 'font', '255', 8),
             time: 150 * 1000,
             displayedTime: 255,
             hurry: false
