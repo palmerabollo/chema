@@ -71,9 +71,10 @@ export default function makeAnimations(scene) {
     });
 
     config.key = 'death';
-    config.frames = scene.anims.generateFrameNumbers('mario', {
-        start: 22,
-        end: 22
+    config.frames = scene.anims.generateFrameNames('mario-sprites', {
+        prefix: 'mario/walk', 
+        start: 1,
+        end: 1
     });
     scene.anims.create(config);
 
