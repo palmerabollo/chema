@@ -28,6 +28,8 @@ class BootScene extends Phaser.Scene {
 
         this.load.image('background-distrito', 'assets/images/distrito_repeated.png');
 
+        this.load.image('powerpoint', 'assets/images/powerpoint.jpg');
+
         // Tilemap with a lot of objects and tile-properties tricks
         this.load.tilemapTiledJSON('map', 'assets/tilemaps/super-mario.json');
 

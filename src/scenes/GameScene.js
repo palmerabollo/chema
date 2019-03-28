@@ -18,19 +18,27 @@ class GameScene extends Phaser.Scene {
         this.load.scenePlugin('animatedTiles', AnimatedTiles, 'animatedTiles', 'animatedTiles');
     }
 
+
+    fallppt() {
+        var fallingObjects = this.physics.add.staticGroup();
+        var sprite = this.physics.add.sprite(this.mario.x, 10, 'powerpoint');
+        sprite.body.gravity.y = 0;
+        fallingObjects.add(sprite);
+        // this.physics.add.collider(player, sprite);
+        // console.log(sprite); // sprite.body.gravity.y = 100;
+    }
+
     create() {
         if (this.music) {
             this.music.pause();
         }
 
-        /**
-        var fallingObjects = this.physics.add.staticGroup();
-        var sprite = this.physics.add.sprite(50, 10, 'falling');
-        sprite.body.gravity.y = 0;
-        fallingObjects.add(sprite);
+        // var fallingObjects = this.physics.add.staticGroup();
+        // var sprite = this.physics.add.sprite(50, 10, 'falling');
+        // sprite.body.gravity.y = 0;
+        // fallingObjects.add(sprite);
         // this.physics.add.collider(player, sprite);
         // console.log(sprite); // sprite.body.gravity.y = 100;
-        */
 
         // This scene is either called to run in attract mode in the background of the title screen
         // or for actual gameplay. Attract mode is based on a JSON-recording.
@@ -45,7 +53,9 @@ class GameScene extends Phaser.Scene {
         }
 
         // Background image
-        this.add.image(0, 100, 'background-distrito');
+        // this.add.image(0, 100, 'background-distrito');
+
+        
 
         var text = this.add.text(430, 108, ' sprint\nplanning\n    ⬇️', { font: '18px Arial', fill: 'white' });
         text.setShadow(2, 2, 'rgba(0,0,0,0.3)', 2);
@@ -223,6 +233,8 @@ class GameScene extends Phaser.Scene {
         // Set bounds for current room
         this.mario.setRoomBounds(this.rooms);
 
+        //this.fallppt();
+
         // The camera should follow Mario
         this.cameras.main.startFollow(this.mario);
 
@@ -327,6 +339,7 @@ class GameScene extends Phaser.Scene {
                 sound.play('smb_warning');
             }
             if (this.levelTimer.displayedTime < 1) {
+                this.fallppt();
                 this.mario.die();
                 this.levelTimer.hurry = false;
                 this.music.rate = 1;
@@ -648,7 +661,7 @@ class GameScene extends Phaser.Scene {
         hud.setScrollFactor(0, 0);
         this.levelTimer = {
             textObject: this.add.bitmapText(40 * 8, 16, 'font', '255', 8),
-            time: 150 * 1000,
+            time: 100 * 1000,
             displayedTime: 255,
             hurry: false
         };
