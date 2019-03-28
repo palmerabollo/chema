@@ -234,10 +234,14 @@ export default class Mario extends Phaser.GameObjects.Sprite {
             this.large();
             this.animSuffix = 'Super';
             this.play('grow');
+            this.acceleration = 500;
+            this.body.maxVelocity.x = 200;
         } else {
             this.small();
             this.animSuffix = '';
             this.play('shrink');
+            this.acceleration = 300;
+            this.body.maxVelocity.x = 100;
         }
     }
 

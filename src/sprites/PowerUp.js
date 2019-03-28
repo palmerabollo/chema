@@ -100,7 +100,7 @@ export default class PowerUp extends Phaser.GameObjects.Sprite {
                 break;
             case 'star':
                 mario.star.active = true;
-                mario.star.timer = 10000;
+                mario.star.timer = 15000;
                 powerUp.scene.sound.playAudioSprite('sfx', 'smb_powerup');
                 break;
             case '1up':
