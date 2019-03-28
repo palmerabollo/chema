@@ -62,6 +62,10 @@ class BootScene extends Phaser.Scene {
             'assets/music/overworld.mp3'
         ]);
 
+        this.load.audio('meeting', [
+            'assets/music/meeting.ogg'
+        ]);
+
         // Sound effects in a audioSprite.
         this.load.audioSprite('sfx', 'assets/audio/sfx.json', [
             'assets/audio/sfx.ogg',

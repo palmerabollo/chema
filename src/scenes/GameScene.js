@@ -14,11 +14,15 @@ class GameScene extends Phaser.Scene {
     }
 
     preload() {
-        // this.load.image('falling', 'assets/images/falling.png');
+        this.load.image('falling', 'assets/images/falling.png');
         this.load.scenePlugin('animatedTiles', AnimatedTiles, 'animatedTiles', 'animatedTiles');
     }
 
     create() {
+        if (this.music) {
+            this.music.pause();
+        }
+
         /**
         var fallingObjects = this.physics.add.staticGroup();
         var sprite = this.physics.add.sprite(50, 10, 'falling');
@@ -27,8 +31,6 @@ class GameScene extends Phaser.Scene {
         // this.physics.add.collider(player, sprite);
         // console.log(sprite); // sprite.body.gravity.y = 100;
         */
-
-
 
         // This scene is either called to run in attract mode in the background of the title screen
         // or for actual gameplay. Attract mode is based on a JSON-recording.
@@ -45,7 +47,8 @@ class GameScene extends Phaser.Scene {
         // Background image
         this.add.image(0, 100, 'background-distrito');
 
-        this.add.text(450, 92, 'sprint\nplanning\n⬇️', { fontSize: '22px', fill: '#000' });
+        var text = this.add.text(430, 108, ' sprint\nplanning\n    ⬇️', { font: '18px Arial', fill: 'white' });
+        text.setShadow(2, 2, 'rgba(0,0,0,0.3)', 2);
 
         // Places to warp to (from pipes). These coordinates is used also to define current room (see below)
         this.destinations = {};
@@ -60,6 +63,8 @@ class GameScene extends Phaser.Scene {
 
         // Add and play the music
         this.music = this.sound.add('overworld');
+        this.musicMeeting = this.sound.add('meeting');
+
         this.music.play({
             loop: true
         });

@@ -178,7 +178,6 @@ export default class Mario extends Phaser.GameObjects.Sprite {
 
     run(vel) {
         this.body.setAccelerationX(vel);
-        // this.body.setVelocityX(Math.floor(vel));
     }
 
     jump() {
@@ -253,6 +252,7 @@ export default class Mario extends Phaser.GameObjects.Sprite {
 
     die() {
         this.scene.music.pause();
+        this.scene.musicMeeting.pause();
         this.play('death');
         this.scene.sound.playAudioSprite('sfx', 'smb_mariodie');
         this.body.setAcceleration(0);
@@ -261,6 +261,9 @@ export default class Mario extends Phaser.GameObjects.Sprite {
     }
 
     enterPipe(id, dir, init = true) {
+        this.scene.music.pause();
+        this.scene.musicMeeting.play();
+
         if (init) {
             if (this.animSuffix === '') {
                 this.play('stand');
@@ -279,8 +282,6 @@ export default class Mario extends Phaser.GameObjects.Sprite {
                 duration: 800,
                 onComplete: function () {
                     console.log(this.targets, id, dir);
-                    console.log(id);
-                    console.log(dir);
                     this.targets[0].enterPipe(id, dir, false);
                 }
             });
