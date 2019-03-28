@@ -1669,6 +1669,27 @@
 					}
 				},
 				{
+					"filename": "mario/walk3",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 16
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 0,
+						"w": 15,
+						"h": 16
+					},
+					"frame": {
+						"x": 215,
+						"y": 216,
+						"w": 15,
+						"h": 16
+					}
+				},
+				{
 					"filename": "fire/explode2",
 					"rotated": false,
 					"trimmed": true,
@@ -1683,8 +1704,8 @@
 						"h": 16
 					},
 					"frame": {
-						"x": 215,
-						"y": 216,
+						"x": 251,
+						"y": 213,
 						"w": 14,
 						"h": 16
 					}
@@ -1704,8 +1725,8 @@
 						"h": 16
 					},
 					"frame": {
-						"x": 251,
-						"y": 213,
+						"x": 267,
+						"y": 206,
 						"w": 14,
 						"h": 16
 					}
@@ -1725,8 +1746,8 @@
 						"h": 16
 					},
 					"frame": {
-						"x": 251,
-						"y": 213,
+						"x": 267,
+						"y": 206,
 						"w": 14,
 						"h": 16
 					}
@@ -1746,77 +1767,14 @@
 						"h": 16
 					},
 					"frame": {
-						"x": 251,
-						"y": 213,
+						"x": 267,
+						"y": 206,
 						"w": 14,
 						"h": 16
 					}
 				},
 				{
 					"filename": "mario/walk1",
-					"rotated": false,
-					"trimmed": true,
-					"sourceSize": {
-						"w": 16,
-						"h": 16
-					},
-					"spriteSourceSize": {
-						"x": 1,
-						"y": 0,
-						"w": 14,
-						"h": 16
-					},
-					"frame": {
-						"x": 251,
-						"y": 213,
-						"w": 14,
-						"h": 16
-					}
-				},
-				{
-					"filename": "mario/walk2",
-					"rotated": false,
-					"trimmed": true,
-					"sourceSize": {
-						"w": 16,
-						"h": 16
-					},
-					"spriteSourceSize": {
-						"x": 1,
-						"y": 0,
-						"w": 14,
-						"h": 16
-					},
-					"frame": {
-						"x": 251,
-						"y": 213,
-						"w": 14,
-						"h": 16
-					}
-				},
-				{
-					"filename": "mario/walk3",
-					"rotated": false,
-					"trimmed": true,
-					"sourceSize": {
-						"w": 16,
-						"h": 16
-					},
-					"spriteSourceSize": {
-						"x": 1,
-						"y": 0,
-						"w": 14,
-						"h": 16
-					},
-					"frame": {
-						"x": 251,
-						"y": 213,
-						"w": 14,
-						"h": 16
-					}
-				},
-				{
-					"filename": "mario/climb0",
 					"rotated": false,
 					"trimmed": true,
 					"sourceSize": {
@@ -1856,6 +1814,48 @@
 						"w": 16,
 						"h": 9
 					}
+				},
+				{
+					"filename": "mario/climb0",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 16
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 0,
+						"w": 14,
+						"h": 16
+					},
+					"frame": {
+						"x": 283,
+						"y": 206,
+						"w": 14,
+						"h": 16
+					}
+				},
+				{
+					"filename": "mario/walk2",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 16
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 0,
+						"w": 14,
+						"h": 16
+					},
+					"frame": {
+						"x": 299,
+						"y": 213,
+						"w": 14,
+						"h": 16
+					}
 				}
 			]
 		}
@@ -1863,6 +1863,6 @@
 	"meta": {
 		"app": "https://www.codeandweb.com/texturepacker",
 		"version": "3.0",
-		"smartupdate": "$TexturePacker:SmartUpdate:d5784c993f2d002a49cffcae03691d2b:24cf3acd047c7e400a47832724093def:4f58bece13d73f4757a743d8358f7b7b$"
+		"smartupdate": "$TexturePacker:SmartUpdate:68e1466fb56bd4085dafe019416b2133:a25d7620149ad9097a3a2e3c7bf4c059:4f58bece13d73f4757a743d8358f7b7b$"
 	}
 }
