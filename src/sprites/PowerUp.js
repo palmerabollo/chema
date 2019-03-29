@@ -49,6 +49,7 @@ export default class PowerUp extends Phaser.GameObjects.Sprite {
 
         if (this.type === 'coin') {
             this.scene.sound.playAudioSprite('sfx', 'smb_coin');
+            this.scene.updateScore(1);
         } else {
             this.scene.sound.playAudioSprite('sfx', 'smb_powerup_appears');
             this.scene.powerUps.add(this);
@@ -108,7 +109,7 @@ export default class PowerUp extends Phaser.GameObjects.Sprite {
                 break;
         }
         // get points
-        powerUp.scene.updateScore(1000);
+        //powerUp.scene.updateScore(1000);
         powerUp.alpha = 0;
     }
 }
