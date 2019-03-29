@@ -60,8 +60,12 @@ class GameScene extends Phaser.Scene {
 
 
 
-        var text = this.add.text(430, 108, ' sprint\nplanning\n    ⬇️', { font: '18px Arial', fill: 'white' });
-        text.setShadow(2, 2, 'rgba(0,0,0,0.3)', 2);
+        //var text = this.add.text(430, 108, ' sprint\nplanning\n    ⬇️', { font: '18px Arial', fill: 'white' });
+        
+        //text.setShadow(2, 2, 'rgba(0,0,0,0.3)', 2);
+        var planning = this.add.image(465, 90, 'sprint-planning');
+        planning.displayWidth = '90';
+        planning.displayHeight = '40';
 
         // Places to warp to (from pipes). These coordinates is used also to define current room (see below)
         this.destinations = {};

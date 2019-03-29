@@ -1,300 +1,1007 @@
-{"frames": [
-
 {
-	"filename": "brick",
-	"frame": {"x":0,"y":0,"w":9,"h":5},
-	"rotated": false,
-	"trimmed": false,
-	"spriteSourceSize": {"x":0,"y":0,"w":9,"h":5},
-	"sourceSize": {"w":9,"h":5}
-},
-{
-	"filename": "flag",
-	"frame": {"x":0,"y":5,"w":16,"h":16},
-	"rotated": false,
-	"trimmed": false,
-	"spriteSourceSize": {"x":0,"y":0,"w":16,"h":16},
-	"sourceSize": {"w":16,"h":16}
-},
-{
-	"filename": "mario/bend",
-	"frame": {"x":0,"y":21,"w":16,"h":32},
-	"rotated": false,
-	"trimmed": false,
-	"spriteSourceSize": {"x":0,"y":0,"w":16,"h":32},
-	"sourceSize": {"w":16,"h":32}
-},
-{
-	"filename": "mario/climb1",
-	"frame": {"x":0,"y":53,"w":16,"h":16},
-	"rotated": false,
-	"trimmed": false,
-	"spriteSourceSize": {"x":0,"y":0,"w":16,"h":16},
-	"sourceSize": {"w":16,"h":16}
-},
-{
-	"filename": "mario/climb1Super",
-	"frame": {"x":0,"y":69,"w":16,"h":32},
-	"rotated": false,
-	"trimmed": false,
-	"spriteSourceSize": {"x":0,"y":0,"w":16,"h":32},
-	"sourceSize": {"w":16,"h":32}
-},
-{
-	"filename": "mario/climb2",
-	"frame": {"x":0,"y":101,"w":16,"h":16},
-	"rotated": false,
-	"trimmed": false,
-	"spriteSourceSize": {"x":0,"y":0,"w":16,"h":16},
-	"sourceSize": {"w":16,"h":16}
-},
-{
-	"filename": "mario/climbSuper2",
-	"frame": {"x":0,"y":117,"w":16,"h":32},
-	"rotated": false,
-	"trimmed": false,
-	"spriteSourceSize": {"x":0,"y":0,"w":16,"h":32},
-	"sourceSize": {"w":16,"h":32}
-},
-{
-	"filename": "mario/dead",
-	"frame": {"x":0,"y":149,"w":16,"h":16},
-	"rotated": false,
-	"trimmed": false,
-	"spriteSourceSize": {"x":0,"y":0,"w":16,"h":16},
-	"sourceSize": {"w":16,"h":16}
-},
-{
-	"filename": "mario/fire",
-	"frame": {"x":0,"y":165,"w":16,"h":32},
-	"rotated": false,
-	"trimmed": false,
-	"spriteSourceSize": {"x":0,"y":0,"w":16,"h":32},
-	"sourceSize": {"w":16,"h":32}
-},
-{
-	"filename": "mario/half",
-	"frame": {"x":0,"y":197,"w":16,"h":32},
-	"rotated": false,
-	"trimmed": false,
-	"spriteSourceSize": {"x":0,"y":0,"w":16,"h":32},
-	"sourceSize": {"w":16,"h":32}
-},
-{
-	"filename": "mario/jump",
-	"frame": {"x":0,"y":229,"w":16,"h":16},
-	"rotated": false,
-	"trimmed": false,
-	"spriteSourceSize": {"x":0,"y":0,"w":16,"h":16},
-	"sourceSize": {"w":16,"h":16}
-},
-{
-	"filename": "mario/jumpSuper",
-	"frame": {"x":0,"y":245,"w":16,"h":32},
-	"rotated": false,
-	"trimmed": false,
-	"spriteSourceSize": {"x":0,"y":0,"w":16,"h":32},
-	"sourceSize": {"w":16,"h":32}
-},
-{
-	"filename": "mario/stand",
-	"frame": {"x":0,"y":277,"w":16,"h":16},
-	"rotated": false,
-	"trimmed": false,
-	"spriteSourceSize": {"x":0,"y":0,"w":16,"h":16},
-	"sourceSize": {"w":16,"h":16}
-},
-{
-	"filename": "mario/standSuper",
-	"frame": {"x":0,"y":293,"w":16,"h":32},
-	"rotated": false,
-	"trimmed": false,
-	"spriteSourceSize": {"x":0,"y":0,"w":16,"h":32},
-	"sourceSize": {"w":16,"h":32}
-},
-{
-	"filename": "mario/swim1",
-	"frame": {"x":0,"y":325,"w":16,"h":16},
-	"rotated": false,
-	"trimmed": false,
-	"spriteSourceSize": {"x":0,"y":0,"w":16,"h":16},
-	"sourceSize": {"w":16,"h":16}
-},
-{
-	"filename": "mario/swim2",
-	"frame": {"x":0,"y":341,"w":16,"h":16},
-	"rotated": false,
-	"trimmed": false,
-	"spriteSourceSize": {"x":0,"y":0,"w":16,"h":16},
-	"sourceSize": {"w":16,"h":16}
-},
-{
-	"filename": "mario/swim3",
-	"frame": {"x":0,"y":357,"w":16,"h":16},
-	"rotated": false,
-	"trimmed": false,
-	"spriteSourceSize": {"x":0,"y":0,"w":16,"h":16},
-	"sourceSize": {"w":16,"h":16}
-},
-{
-	"filename": "mario/swim4",
-	"frame": {"x":0,"y":373,"w":16,"h":16},
-	"rotated": false,
-	"trimmed": false,
-	"spriteSourceSize": {"x":0,"y":0,"w":16,"h":16},
-	"sourceSize": {"w":16,"h":16}
-},
-{
-	"filename": "mario/swim5",
-	"frame": {"x":0,"y":389,"w":16,"h":16},
-	"rotated": false,
-	"trimmed": false,
-	"spriteSourceSize": {"x":0,"y":0,"w":16,"h":16},
-	"sourceSize": {"w":16,"h":16}
-},
-{
-	"filename": "mario/swimSuper1",
-	"frame": {"x":0,"y":405,"w":16,"h":32},
-	"rotated": false,
-	"trimmed": false,
-	"spriteSourceSize": {"x":0,"y":0,"w":16,"h":32},
-	"sourceSize": {"w":16,"h":32}
-},
-{
-	"filename": "mario/swimSuper2",
-	"frame": {"x":0,"y":437,"w":16,"h":32},
-	"rotated": false,
-	"trimmed": false,
-	"spriteSourceSize": {"x":0,"y":0,"w":16,"h":32},
-	"sourceSize": {"w":16,"h":32}
-},
-{
-	"filename": "mario/swimSuper3",
-	"frame": {"x":0,"y":469,"w":16,"h":32},
-	"rotated": false,
-	"trimmed": false,
-	"spriteSourceSize": {"x":0,"y":0,"w":16,"h":32},
-	"sourceSize": {"w":16,"h":32}
-},
-{
-	"filename": "mario/swimSuper4",
-	"frame": {"x":0,"y":501,"w":16,"h":32},
-	"rotated": false,
-	"trimmed": false,
-	"spriteSourceSize": {"x":0,"y":0,"w":16,"h":32},
-	"sourceSize": {"w":16,"h":32}
-},
-{
-	"filename": "mario/swimSuper5",
-	"frame": {"x":0,"y":533,"w":16,"h":32},
-	"rotated": false,
-	"trimmed": false,
-	"spriteSourceSize": {"x":0,"y":0,"w":16,"h":32},
-	"sourceSize": {"w":16,"h":32}
-},
-{
-	"filename": "mario/swimSuper6",
-	"frame": {"x":0,"y":565,"w":16,"h":32},
-	"rotated": false,
-	"trimmed": false,
-	"spriteSourceSize": {"x":0,"y":0,"w":16,"h":32},
-	"sourceSize": {"w":16,"h":32}
-},
-{
-	"filename": "mario/turn",
-	"frame": {"x":0,"y":597,"w":16,"h":16},
-	"rotated": false,
-	"trimmed": false,
-	"spriteSourceSize": {"x":0,"y":0,"w":16,"h":16},
-	"sourceSize": {"w":16,"h":16}
-},
-{
-	"filename": "mario/turnSuper",
-	"frame": {"x":0,"y":613,"w":16,"h":32},
-	"rotated": false,
-	"trimmed": false,
-	"spriteSourceSize": {"x":0,"y":0,"w":16,"h":32},
-	"sourceSize": {"w":16,"h":32}
-},
-{
-	"filename": "mario/walk1",
-	"frame": {"x":0,"y":645,"w":16,"h":16},
-	"rotated": false,
-	"trimmed": false,
-	"spriteSourceSize": {"x":0,"y":0,"w":16,"h":16},
-	"sourceSize": {"w":16,"h":16}
-},
-{
-	"filename": "mario/walk2",
-	"frame": {"x":0,"y":661,"w":16,"h":16},
-	"rotated": false,
-	"trimmed": false,
-	"spriteSourceSize": {"x":0,"y":0,"w":16,"h":16},
-	"sourceSize": {"w":16,"h":16}
-},
-{
-	"filename": "mario/walk3",
-	"frame": {"x":0,"y":677,"w":16,"h":16},
-	"rotated": false,
-	"trimmed": false,
-	"spriteSourceSize": {"x":0,"y":0,"w":16,"h":16},
-	"sourceSize": {"w":16,"h":16}
-},
-{
-	"filename": "mario/walkSuper1",
-	"frame": {"x":0,"y":693,"w":16,"h":32},
-	"rotated": false,
-	"trimmed": false,
-	"spriteSourceSize": {"x":0,"y":0,"w":16,"h":32},
-	"sourceSize": {"w":16,"h":32}
-},
-{
-	"filename": "mario/walkSuper2",
-	"frame": {"x":0,"y":725,"w":16,"h":32},
-	"rotated": false,
-	"trimmed": false,
-	"spriteSourceSize": {"x":0,"y":0,"w":16,"h":32},
-	"sourceSize": {"w":16,"h":32}
-},
-{
-	"filename": "mario/walkSuper3",
-	"frame": {"x":0,"y":757,"w":16,"h":32},
-	"rotated": false,
-	"trimmed": false,
-	"spriteSourceSize": {"x":0,"y":0,"w":16,"h":32},
-	"sourceSize": {"w":16,"h":32}
-},
-{
-	"filename": "turtle/shell",
-	"frame": {"x":0,"y":789,"w":16,"h":24},
-	"rotated": false,
-	"trimmed": false,
-	"spriteSourceSize": {"x":0,"y":0,"w":16,"h":24},
-	"sourceSize": {"w":16,"h":24}
-},
-{
-	"filename": "turtle/turtle0",
-	"frame": {"x":0,"y":813,"w":16,"h":24},
-	"rotated": false,
-	"trimmed": false,
-	"spriteSourceSize": {"x":0,"y":0,"w":16,"h":24},
-	"sourceSize": {"w":16,"h":24}
-},
-{
-	"filename": "turtle/turtle1",
-	"frame": {"x":0,"y":837,"w":16,"h":24},
-	"rotated": false,
-	"trimmed": false,
-	"spriteSourceSize": {"x":0,"y":0,"w":16,"h":24},
-	"sourceSize": {"w":16,"h":24}
-}],
-"meta": {
-	"app": "http://www.codeandweb.com/texturepacker",
-	"version": "1.0",
-	"image": "mario-sprites.png",
-	"format": "RGBA8888",
-	"size": {"w":16,"h":861},
-	"scale": "1",
-	"smartupdate": "$TexturePacker:SmartUpdate:f00a8ecbf2d04d70deec0a95f716e8cb:da7c41ddc8a557435ce0a49db46952be:4f58bece13d73f4757a743d8358f7b7b$"
-}
+	"textures": [
+		{
+			"image": "mario-sprites.png",
+			"format": "RGBA8888",
+			"size": {
+				"w": 54,
+				"h": 422
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "fire.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 16,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 16,
+						"h": 32
+					},
+					"frame": {
+						"x": 1,
+						"y": 1,
+						"w": 16,
+						"h": 32
+					}
+				},
+				{
+					"filename": "jumpFire.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 16,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 16,
+						"h": 32
+					},
+					"frame": {
+						"x": 1,
+						"y": 35,
+						"w": 16,
+						"h": 32
+					}
+				},
+				{
+					"filename": "jumpSuper.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 16,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 16,
+						"h": 32
+					},
+					"frame": {
+						"x": 19,
+						"y": 1,
+						"w": 16,
+						"h": 32
+					}
+				},
+				{
+					"filename": "standFire.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 16,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 16,
+						"h": 32
+					},
+					"frame": {
+						"x": 37,
+						"y": 1,
+						"w": 16,
+						"h": 32
+					}
+				},
+				{
+					"filename": "standSuper.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 16,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 16,
+						"h": 32
+					},
+					"frame": {
+						"x": 1,
+						"y": 69,
+						"w": 16,
+						"h": 32
+					}
+				},
+				{
+					"filename": "turnFire.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 16,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 16,
+						"h": 32
+					},
+					"frame": {
+						"x": 19,
+						"y": 35,
+						"w": 16,
+						"h": 32
+					}
+				},
+				{
+					"filename": "turnSuper.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 16,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 16,
+						"h": 32
+					},
+					"frame": {
+						"x": 37,
+						"y": 35,
+						"w": 16,
+						"h": 32
+					}
+				},
+				{
+					"filename": "walkFire2.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 16,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 16,
+						"h": 32
+					},
+					"frame": {
+						"x": 1,
+						"y": 103,
+						"w": 16,
+						"h": 32
+					}
+				},
+				{
+					"filename": "walkFire3.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 16,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 16,
+						"h": 32
+					},
+					"frame": {
+						"x": 19,
+						"y": 69,
+						"w": 16,
+						"h": 32
+					}
+				},
+				{
+					"filename": "walkSuper2.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 16,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 16,
+						"h": 32
+					},
+					"frame": {
+						"x": 37,
+						"y": 69,
+						"w": 16,
+						"h": 32
+					}
+				},
+				{
+					"filename": "walkSuper3.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 16,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 16,
+						"h": 32
+					},
+					"frame": {
+						"x": 1,
+						"y": 137,
+						"w": 16,
+						"h": 32
+					}
+				},
+				{
+					"filename": "climbFire1.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 1,
+						"w": 16,
+						"h": 31
+					},
+					"frame": {
+						"x": 19,
+						"y": 103,
+						"w": 16,
+						"h": 31
+					}
+				},
+				{
+					"filename": "climbSuper1.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 1,
+						"w": 16,
+						"h": 31
+					},
+					"frame": {
+						"x": 37,
+						"y": 103,
+						"w": 16,
+						"h": 31
+					}
+				},
+				{
+					"filename": "swimFire2.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 1,
+						"w": 16,
+						"h": 31
+					},
+					"frame": {
+						"x": 1,
+						"y": 171,
+						"w": 16,
+						"h": 31
+					}
+				},
+				{
+					"filename": "swimFire4.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 1,
+						"w": 16,
+						"h": 31
+					},
+					"frame": {
+						"x": 19,
+						"y": 136,
+						"w": 16,
+						"h": 31
+					}
+				},
+				{
+					"filename": "swimFire5.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 1,
+						"w": 16,
+						"h": 31
+					},
+					"frame": {
+						"x": 37,
+						"y": 136,
+						"w": 16,
+						"h": 31
+					}
+				},
+				{
+					"filename": "swimFire6.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 1,
+						"w": 16,
+						"h": 31
+					},
+					"frame": {
+						"x": 1,
+						"y": 204,
+						"w": 16,
+						"h": 31
+					}
+				},
+				{
+					"filename": "swimSuper2.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 1,
+						"w": 16,
+						"h": 31
+					},
+					"frame": {
+						"x": 19,
+						"y": 169,
+						"w": 16,
+						"h": 31
+					}
+				},
+				{
+					"filename": "swimSuper4.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 1,
+						"w": 16,
+						"h": 31
+					},
+					"frame": {
+						"x": 37,
+						"y": 169,
+						"w": 16,
+						"h": 31
+					}
+				},
+				{
+					"filename": "swimSuper5.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 1,
+						"w": 16,
+						"h": 31
+					},
+					"frame": {
+						"x": 1,
+						"y": 237,
+						"w": 16,
+						"h": 31
+					}
+				},
+				{
+					"filename": "swimSuper6.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 1,
+						"w": 16,
+						"h": 31
+					},
+					"frame": {
+						"x": 19,
+						"y": 202,
+						"w": 16,
+						"h": 31
+					}
+				},
+				{
+					"filename": "walkFire1.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 1,
+						"w": 16,
+						"h": 31
+					},
+					"frame": {
+						"x": 37,
+						"y": 202,
+						"w": 16,
+						"h": 31
+					}
+				},
+				{
+					"filename": "walkSuper1.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 1,
+						"w": 16,
+						"h": 31
+					},
+					"frame": {
+						"x": 1,
+						"y": 270,
+						"w": 16,
+						"h": 31
+					}
+				},
+				{
+					"filename": "swimFire1.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 1,
+						"w": 15,
+						"h": 31
+					},
+					"frame": {
+						"x": 19,
+						"y": 235,
+						"w": 15,
+						"h": 31
+					}
+				},
+				{
+					"filename": "swimFire3.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 1,
+						"w": 15,
+						"h": 31
+					},
+					"frame": {
+						"x": 1,
+						"y": 303,
+						"w": 15,
+						"h": 31
+					}
+				},
+				{
+					"filename": "swimSuper1.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 1,
+						"w": 15,
+						"h": 31
+					},
+					"frame": {
+						"x": 19,
+						"y": 268,
+						"w": 15,
+						"h": 31
+					}
+				},
+				{
+					"filename": "swimSuper3.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 1,
+						"w": 15,
+						"h": 31
+					},
+					"frame": {
+						"x": 36,
+						"y": 235,
+						"w": 15,
+						"h": 31
+					}
+				},
+				{
+					"filename": "climbFire0.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 1,
+						"w": 16,
+						"h": 29
+					},
+					"frame": {
+						"x": 1,
+						"y": 336,
+						"w": 16,
+						"h": 29
+					}
+				},
+				{
+					"filename": "climbSuper0.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 1,
+						"w": 16,
+						"h": 29
+					},
+					"frame": {
+						"x": 1,
+						"y": 367,
+						"w": 16,
+						"h": 29
+					}
+				},
+				{
+					"filename": "bendFire.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 9,
+						"w": 16,
+						"h": 23
+					},
+					"frame": {
+						"x": 1,
+						"y": 398,
+						"w": 16,
+						"h": 23
+					}
+				},
+				{
+					"filename": "half.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 7,
+						"w": 16,
+						"h": 25
+					},
+					"frame": {
+						"x": 36,
+						"y": 268,
+						"w": 16,
+						"h": 25
+					}
+				},
+				{
+					"filename": "bendSuper.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 9,
+						"w": 16,
+						"h": 23
+					},
+					"frame": {
+						"x": 18,
+						"y": 303,
+						"w": 16,
+						"h": 23
+					}
+				},
+				{
+					"filename": "dead.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 16,
+						"h": 16
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 16,
+						"h": 16
+					},
+					"frame": {
+						"x": 36,
+						"y": 295,
+						"w": 16,
+						"h": 16
+					}
+				},
+				{
+					"filename": "jump.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 16,
+						"h": 16
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 16,
+						"h": 16
+					},
+					"frame": {
+						"x": 36,
+						"y": 313,
+						"w": 16,
+						"h": 16
+					}
+				},
+				{
+					"filename": "climb1.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 16
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 0,
+						"w": 15,
+						"h": 16
+					},
+					"frame": {
+						"x": 19,
+						"y": 328,
+						"w": 15,
+						"h": 16
+					}
+				},
+				{
+					"filename": "swim1.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 16
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 15,
+						"h": 16
+					},
+					"frame": {
+						"x": 19,
+						"y": 346,
+						"w": 15,
+						"h": 16
+					}
+				},
+				{
+					"filename": "swim2.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 16
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 15,
+						"h": 16
+					},
+					"frame": {
+						"x": 36,
+						"y": 331,
+						"w": 15,
+						"h": 16
+					}
+				},
+				{
+					"filename": "swim3.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 16
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 15,
+						"h": 16
+					},
+					"frame": {
+						"x": 19,
+						"y": 364,
+						"w": 15,
+						"h": 16
+					}
+				},
+				{
+					"filename": "swim4.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 16
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 15,
+						"h": 16
+					},
+					"frame": {
+						"x": 36,
+						"y": 349,
+						"w": 15,
+						"h": 16
+					}
+				},
+				{
+					"filename": "swim5.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 16
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 15,
+						"h": 16
+					},
+					"frame": {
+						"x": 19,
+						"y": 382,
+						"w": 15,
+						"h": 16
+					}
+				},
+				{
+					"filename": "walk3.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 16
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 0,
+						"w": 15,
+						"h": 16
+					},
+					"frame": {
+						"x": 36,
+						"y": 367,
+						"w": 15,
+						"h": 16
+					}
+				},
+				{
+					"filename": "bend.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 16
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 0,
+						"w": 14,
+						"h": 16
+					},
+					"frame": {
+						"x": 19,
+						"y": 400,
+						"w": 14,
+						"h": 16
+					}
+				},
+				{
+					"filename": "stand.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 16
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 0,
+						"w": 14,
+						"h": 16
+					},
+					"frame": {
+						"x": 19,
+						"y": 400,
+						"w": 14,
+						"h": 16
+					}
+				},
+				{
+					"filename": "turn.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 16
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 0,
+						"w": 14,
+						"h": 16
+					},
+					"frame": {
+						"x": 19,
+						"y": 400,
+						"w": 14,
+						"h": 16
+					}
+				},
+				{
+					"filename": "walk1.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 16
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 0,
+						"w": 14,
+						"h": 16
+					},
+					"frame": {
+						"x": 19,
+						"y": 400,
+						"w": 14,
+						"h": 16
+					}
+				},
+				{
+					"filename": "climb0.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 16
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 0,
+						"w": 14,
+						"h": 16
+					},
+					"frame": {
+						"x": 36,
+						"y": 385,
+						"w": 14,
+						"h": 16
+					}
+				},
+				{
+					"filename": "walk2.png",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 16
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 0,
+						"w": 14,
+						"h": 16
+					},
+					"frame": {
+						"x": 35,
+						"y": 403,
+						"w": 14,
+						"h": 16
+					}
+				}
+			]
+		}
+	],
+	"meta": {
+		"app": "https://www.codeandweb.com/texturepacker",
+		"version": "3.0",
+		"smartupdate": "$TexturePacker:SmartUpdate:6450cb07f72dc6bcd7af0dd1771964d5:ad0ed376164ab4c584b377822a89a81f:4f58bece13d73f4757a743d8358f7b7b$"
+	}
 }
