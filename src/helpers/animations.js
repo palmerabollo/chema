@@ -38,8 +38,13 @@ export default function makeAnimations(scene) {
         // Jump, Stand and Turn: one frame each
         ['jump', 'stand', 'turn', 'bend'].forEach(
             (anim) => {
+                /**
                 if (anim === 'bend' && suffix === '') {
                     // No bend animation when Mario is small
+                    return;
+                }
+                */
+                if (anim == 'bend') {
                     return;
                 }
                 config.key = anim + suffix;
@@ -72,7 +77,7 @@ export default function makeAnimations(scene) {
 
     config.key = 'death';
     config.frames = scene.anims.generateFrameNames('mario-sprites', {
-        prefix: 'mario/walk', 
+        prefix: 'mario/walk',
         start: 1,
         end: 1
     });

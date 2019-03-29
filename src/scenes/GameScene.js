@@ -660,11 +660,11 @@ class GameScene extends Phaser.Scene {
     }
 
     createHUD() {
-        const hud = this.add.bitmapText(5 * 8, 8, 'font', 'CHEMA             DIAS PARA LA RELEASE', 8);
+        const hud = this.add.bitmapText(5 * 8, 8, 'font', 'ISSUES RESUELTAS      DIAS PARA LA RELEASE', 8);
         hud.setScrollFactor(0, 0);
         this.levelTimer = {
-            textObject: this.add.bitmapText(40 * 8, 16, 'font', '255', 8),
-            time: 100 * 1000,
+            textObject: this.add.bitmapText(44 * 8, 16, 'font', '255', 8),
+            time: 150 * 1000,
             displayedTime: 255,
             hurry: false
         };
