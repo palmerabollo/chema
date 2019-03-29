@@ -31,7 +31,7 @@ export default class Fire extends Phaser.GameObjects.Sprite {
         this.body.allowGravity = true;
 
         this.setPosition(x, y);
-        this.body.velocity.x = 400 * (left ? -1 : 1);
+        this.body.velocity.x = 200 * (left ? -1 : 1);
         this.play('fireFly');
         this.scene.sound.playAudioSprite('sfx', 'smb_fireball');
 
