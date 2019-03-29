@@ -4,8 +4,8 @@
 			"image": "mario-sprites.png",
 			"format": "RGBA8888",
 			"size": {
-				"w": 256,
-				"h": 383
+				"w": 346,
+				"h": 253
 			},
 			"scale": 1,
 			"frames": [
@@ -45,8 +45,8 @@
 						"h": 85
 					},
 					"frame": {
-						"x": 1,
-						"y": 253,
+						"x": 164,
+						"y": 1,
 						"w": 177,
 						"h": 85
 					}
@@ -67,7 +67,7 @@
 					},
 					"frame": {
 						"x": 164,
-						"y": 1,
+						"y": 88,
 						"w": 74,
 						"h": 75
 					}
@@ -87,682 +87,10 @@
 						"h": 41
 					},
 					"frame": {
-						"x": 1,
-						"y": 340,
+						"x": 164,
+						"y": 165,
 						"w": 42,
 						"h": 41
-					}
-				},
-				{
-					"filename": "mario/swimFire1",
-					"rotated": false,
-					"trimmed": true,
-					"sourceSize": {
-						"w": 16,
-						"h": 32
-					},
-					"spriteSourceSize": {
-						"x": 1,
-						"y": 1,
-						"w": 15,
-						"h": 31
-					},
-					"frame": {
-						"x": 240,
-						"y": 1,
-						"w": 15,
-						"h": 31
-					}
-				},
-				{
-					"filename": "mario/swimFire3",
-					"rotated": false,
-					"trimmed": true,
-					"sourceSize": {
-						"w": 16,
-						"h": 32
-					},
-					"spriteSourceSize": {
-						"x": 1,
-						"y": 1,
-						"w": 15,
-						"h": 31
-					},
-					"frame": {
-						"x": 240,
-						"y": 34,
-						"w": 15,
-						"h": 31
-					}
-				},
-				{
-					"filename": "mario/swimSuper1",
-					"rotated": false,
-					"trimmed": true,
-					"sourceSize": {
-						"w": 16,
-						"h": 32
-					},
-					"spriteSourceSize": {
-						"x": 1,
-						"y": 1,
-						"w": 15,
-						"h": 31
-					},
-					"frame": {
-						"x": 240,
-						"y": 67,
-						"w": 15,
-						"h": 31
-					}
-				},
-				{
-					"filename": "mario/fire",
-					"rotated": false,
-					"trimmed": false,
-					"sourceSize": {
-						"w": 16,
-						"h": 32
-					},
-					"spriteSourceSize": {
-						"x": 0,
-						"y": 0,
-						"w": 16,
-						"h": 32
-					},
-					"frame": {
-						"x": 45,
-						"y": 340,
-						"w": 16,
-						"h": 32
-					}
-				},
-				{
-					"filename": "mario/jumpFire",
-					"rotated": false,
-					"trimmed": false,
-					"sourceSize": {
-						"w": 16,
-						"h": 32
-					},
-					"spriteSourceSize": {
-						"x": 0,
-						"y": 0,
-						"w": 16,
-						"h": 32
-					},
-					"frame": {
-						"x": 164,
-						"y": 78,
-						"w": 16,
-						"h": 32
-					}
-				},
-				{
-					"filename": "mario/jumpSuper",
-					"rotated": false,
-					"trimmed": false,
-					"sourceSize": {
-						"w": 16,
-						"h": 32
-					},
-					"spriteSourceSize": {
-						"x": 0,
-						"y": 0,
-						"w": 16,
-						"h": 32
-					},
-					"frame": {
-						"x": 63,
-						"y": 340,
-						"w": 16,
-						"h": 32
-					}
-				},
-				{
-					"filename": "mario/standFire",
-					"rotated": false,
-					"trimmed": false,
-					"sourceSize": {
-						"w": 16,
-						"h": 32
-					},
-					"spriteSourceSize": {
-						"x": 0,
-						"y": 0,
-						"w": 16,
-						"h": 32
-					},
-					"frame": {
-						"x": 164,
-						"y": 112,
-						"w": 16,
-						"h": 32
-					}
-				},
-				{
-					"filename": "mario/standSuper",
-					"rotated": false,
-					"trimmed": false,
-					"sourceSize": {
-						"w": 16,
-						"h": 32
-					},
-					"spriteSourceSize": {
-						"x": 0,
-						"y": 0,
-						"w": 16,
-						"h": 32
-					},
-					"frame": {
-						"x": 182,
-						"y": 78,
-						"w": 16,
-						"h": 32
-					}
-				},
-				{
-					"filename": "mario/turnFire",
-					"rotated": false,
-					"trimmed": false,
-					"sourceSize": {
-						"w": 16,
-						"h": 32
-					},
-					"spriteSourceSize": {
-						"x": 0,
-						"y": 0,
-						"w": 16,
-						"h": 32
-					},
-					"frame": {
-						"x": 81,
-						"y": 340,
-						"w": 16,
-						"h": 32
-					}
-				},
-				{
-					"filename": "mario/turnSuper",
-					"rotated": false,
-					"trimmed": false,
-					"sourceSize": {
-						"w": 16,
-						"h": 32
-					},
-					"spriteSourceSize": {
-						"x": 0,
-						"y": 0,
-						"w": 16,
-						"h": 32
-					},
-					"frame": {
-						"x": 164,
-						"y": 146,
-						"w": 16,
-						"h": 32
-					}
-				},
-				{
-					"filename": "mario/walkFire2",
-					"rotated": false,
-					"trimmed": false,
-					"sourceSize": {
-						"w": 16,
-						"h": 32
-					},
-					"spriteSourceSize": {
-						"x": 0,
-						"y": 0,
-						"w": 16,
-						"h": 32
-					},
-					"frame": {
-						"x": 182,
-						"y": 112,
-						"w": 16,
-						"h": 32
-					}
-				},
-				{
-					"filename": "mario/walkFire3",
-					"rotated": false,
-					"trimmed": false,
-					"sourceSize": {
-						"w": 16,
-						"h": 32
-					},
-					"spriteSourceSize": {
-						"x": 0,
-						"y": 0,
-						"w": 16,
-						"h": 32
-					},
-					"frame": {
-						"x": 200,
-						"y": 78,
-						"w": 16,
-						"h": 32
-					}
-				},
-				{
-					"filename": "mario/walkSuper2",
-					"rotated": false,
-					"trimmed": false,
-					"sourceSize": {
-						"w": 16,
-						"h": 32
-					},
-					"spriteSourceSize": {
-						"x": 0,
-						"y": 0,
-						"w": 16,
-						"h": 32
-					},
-					"frame": {
-						"x": 99,
-						"y": 340,
-						"w": 16,
-						"h": 32
-					}
-				},
-				{
-					"filename": "mario/walkSuper3",
-					"rotated": false,
-					"trimmed": false,
-					"sourceSize": {
-						"w": 16,
-						"h": 32
-					},
-					"spriteSourceSize": {
-						"x": 0,
-						"y": 0,
-						"w": 16,
-						"h": 32
-					},
-					"frame": {
-						"x": 164,
-						"y": 180,
-						"w": 16,
-						"h": 32
-					}
-				},
-				{
-					"filename": "mario/climbFire1",
-					"rotated": false,
-					"trimmed": true,
-					"sourceSize": {
-						"w": 16,
-						"h": 32
-					},
-					"spriteSourceSize": {
-						"x": 0,
-						"y": 1,
-						"w": 16,
-						"h": 31
-					},
-					"frame": {
-						"x": 182,
-						"y": 146,
-						"w": 16,
-						"h": 31
-					}
-				},
-				{
-					"filename": "mario/climbSuper1",
-					"rotated": false,
-					"trimmed": true,
-					"sourceSize": {
-						"w": 16,
-						"h": 32
-					},
-					"spriteSourceSize": {
-						"x": 0,
-						"y": 1,
-						"w": 16,
-						"h": 31
-					},
-					"frame": {
-						"x": 200,
-						"y": 112,
-						"w": 16,
-						"h": 31
-					}
-				},
-				{
-					"filename": "mario/swimFire2",
-					"rotated": false,
-					"trimmed": true,
-					"sourceSize": {
-						"w": 16,
-						"h": 32
-					},
-					"spriteSourceSize": {
-						"x": 0,
-						"y": 1,
-						"w": 16,
-						"h": 31
-					},
-					"frame": {
-						"x": 218,
-						"y": 78,
-						"w": 16,
-						"h": 31
-					}
-				},
-				{
-					"filename": "mario/swimFire4",
-					"rotated": false,
-					"trimmed": true,
-					"sourceSize": {
-						"w": 16,
-						"h": 32
-					},
-					"spriteSourceSize": {
-						"x": 0,
-						"y": 1,
-						"w": 16,
-						"h": 31
-					},
-					"frame": {
-						"x": 117,
-						"y": 340,
-						"w": 16,
-						"h": 31
-					}
-				},
-				{
-					"filename": "mario/swimFire5",
-					"rotated": false,
-					"trimmed": true,
-					"sourceSize": {
-						"w": 16,
-						"h": 32
-					},
-					"spriteSourceSize": {
-						"x": 0,
-						"y": 1,
-						"w": 16,
-						"h": 31
-					},
-					"frame": {
-						"x": 164,
-						"y": 214,
-						"w": 16,
-						"h": 31
-					}
-				},
-				{
-					"filename": "mario/swimFire6",
-					"rotated": false,
-					"trimmed": true,
-					"sourceSize": {
-						"w": 16,
-						"h": 32
-					},
-					"spriteSourceSize": {
-						"x": 0,
-						"y": 1,
-						"w": 16,
-						"h": 31
-					},
-					"frame": {
-						"x": 182,
-						"y": 179,
-						"w": 16,
-						"h": 31
-					}
-				},
-				{
-					"filename": "mario/swimSuper2",
-					"rotated": false,
-					"trimmed": true,
-					"sourceSize": {
-						"w": 16,
-						"h": 32
-					},
-					"spriteSourceSize": {
-						"x": 0,
-						"y": 1,
-						"w": 16,
-						"h": 31
-					},
-					"frame": {
-						"x": 200,
-						"y": 145,
-						"w": 16,
-						"h": 31
-					}
-				},
-				{
-					"filename": "mario/swimSuper4",
-					"rotated": false,
-					"trimmed": true,
-					"sourceSize": {
-						"w": 16,
-						"h": 32
-					},
-					"spriteSourceSize": {
-						"x": 0,
-						"y": 1,
-						"w": 16,
-						"h": 31
-					},
-					"frame": {
-						"x": 218,
-						"y": 111,
-						"w": 16,
-						"h": 31
-					}
-				},
-				{
-					"filename": "mario/swimSuper5",
-					"rotated": false,
-					"trimmed": true,
-					"sourceSize": {
-						"w": 16,
-						"h": 32
-					},
-					"spriteSourceSize": {
-						"x": 0,
-						"y": 1,
-						"w": 16,
-						"h": 31
-					},
-					"frame": {
-						"x": 135,
-						"y": 340,
-						"w": 16,
-						"h": 31
-					}
-				},
-				{
-					"filename": "mario/swimSuper6",
-					"rotated": false,
-					"trimmed": true,
-					"sourceSize": {
-						"w": 16,
-						"h": 32
-					},
-					"spriteSourceSize": {
-						"x": 0,
-						"y": 1,
-						"w": 16,
-						"h": 31
-					},
-					"frame": {
-						"x": 182,
-						"y": 212,
-						"w": 16,
-						"h": 31
-					}
-				},
-				{
-					"filename": "mario/walkFire1",
-					"rotated": false,
-					"trimmed": true,
-					"sourceSize": {
-						"w": 16,
-						"h": 32
-					},
-					"spriteSourceSize": {
-						"x": 0,
-						"y": 1,
-						"w": 16,
-						"h": 31
-					},
-					"frame": {
-						"x": 200,
-						"y": 178,
-						"w": 16,
-						"h": 31
-					}
-				},
-				{
-					"filename": "mario/walkSuper1",
-					"rotated": false,
-					"trimmed": true,
-					"sourceSize": {
-						"w": 16,
-						"h": 32
-					},
-					"spriteSourceSize": {
-						"x": 0,
-						"y": 1,
-						"w": 16,
-						"h": 31
-					},
-					"frame": {
-						"x": 218,
-						"y": 144,
-						"w": 16,
-						"h": 31
-					}
-				},
-				{
-					"filename": "other/trampoline3",
-					"rotated": false,
-					"trimmed": false,
-					"sourceSize": {
-						"w": 16,
-						"h": 31
-					},
-					"spriteSourceSize": {
-						"x": 0,
-						"y": 0,
-						"w": 16,
-						"h": 31
-					},
-					"frame": {
-						"x": 153,
-						"y": 340,
-						"w": 16,
-						"h": 31
-					}
-				},
-				{
-					"filename": "mario/swimSuper3",
-					"rotated": false,
-					"trimmed": true,
-					"sourceSize": {
-						"w": 16,
-						"h": 32
-					},
-					"spriteSourceSize": {
-						"x": 1,
-						"y": 1,
-						"w": 15,
-						"h": 31
-					},
-					"frame": {
-						"x": 200,
-						"y": 211,
-						"w": 15,
-						"h": 31
-					}
-				},
-				{
-					"filename": "mario/climbFire0",
-					"rotated": false,
-					"trimmed": true,
-					"sourceSize": {
-						"w": 16,
-						"h": 32
-					},
-					"spriteSourceSize": {
-						"x": 0,
-						"y": 1,
-						"w": 16,
-						"h": 29
-					},
-					"frame": {
-						"x": 218,
-						"y": 177,
-						"w": 16,
-						"h": 29
-					}
-				},
-				{
-					"filename": "mario/climbSuper0",
-					"rotated": false,
-					"trimmed": true,
-					"sourceSize": {
-						"w": 16,
-						"h": 32
-					},
-					"spriteSourceSize": {
-						"x": 0,
-						"y": 1,
-						"w": 16,
-						"h": 29
-					},
-					"frame": {
-						"x": 236,
-						"y": 100,
-						"w": 16,
-						"h": 29
-					}
-				},
-				{
-					"filename": "mario/half",
-					"rotated": false,
-					"trimmed": true,
-					"sourceSize": {
-						"w": 16,
-						"h": 32
-					},
-					"spriteSourceSize": {
-						"x": 0,
-						"y": 7,
-						"w": 16,
-						"h": 25
-					},
-					"frame": {
-						"x": 236,
-						"y": 131,
-						"w": 16,
-						"h": 25
-					}
-				},
-				{
-					"filename": "other/trampoline2",
-					"rotated": false,
-					"trimmed": true,
-					"sourceSize": {
-						"w": 16,
-						"h": 31
-					},
-					"spriteSourceSize": {
-						"x": 0,
-						"y": 7,
-						"w": 16,
-						"h": 24
-					},
-					"frame": {
-						"x": 236,
-						"y": 158,
-						"w": 16,
-						"h": 24
 					}
 				},
 				{
@@ -775,19 +103,40 @@
 					},
 					"spriteSourceSize": {
 						"x": 0,
-						"y": 9,
-						"w": 16,
-						"h": 23
+						"y": 0,
+						"w": 15,
+						"h": 32
 					},
 					"frame": {
-						"x": 236,
-						"y": 184,
-						"w": 16,
-						"h": 23
+						"x": 164,
+						"y": 208,
+						"w": 15,
+						"h": 32
 					}
 				},
 				{
-					"filename": "goomba/flat",
+					"filename": "mario/walkFire3",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 15,
+						"h": 32
+					},
+					"frame": {
+						"x": 164,
+						"y": 208,
+						"w": 15,
+						"h": 32
+					}
+				},
+				{
+					"filename": "fire/explode1",
 					"rotated": false,
 					"trimmed": true,
 					"sourceSize": {
@@ -795,100 +144,163 @@
 						"h": 16
 					},
 					"spriteSourceSize": {
-						"x": 0,
-						"y": 7,
-						"w": 16,
-						"h": 9
+						"x": 3,
+						"y": 3,
+						"w": 10,
+						"h": 10
 					},
 					"frame": {
-						"x": 117,
-						"y": 373,
-						"w": 16,
-						"h": 9
+						"x": 164,
+						"y": 242,
+						"w": 10,
+						"h": 10
 					}
 				},
 				{
-					"filename": "turtle/turtle0",
+					"filename": "powerup/flower1",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
-						"w": 16,
-						"h": 24
-					},
-					"spriteSourceSize": {
-						"x": 0,
-						"y": 0,
-						"w": 16,
-						"h": 24
-					},
-					"frame": {
-						"x": 171,
-						"y": 340,
-						"w": 16,
-						"h": 24
-					}
-				},
-				{
-					"filename": "fire/explode3",
-					"rotated": false,
-					"trimmed": false,
-					"sourceSize": {
-						"w": 16,
-						"h": 16
-					},
-					"spriteSourceSize": {
-						"x": 0,
-						"y": 0,
-						"w": 16,
-						"h": 16
-					},
-					"frame": {
-						"x": 171,
-						"y": 366,
-						"w": 16,
-						"h": 16
-					}
-				},
-				{
-					"filename": "fire/fly2",
-					"rotated": false,
-					"trimmed": false,
-					"sourceSize": {
-						"w": 9,
+						"w": 24,
 						"h": 9
 					},
 					"spriteSourceSize": {
 						"x": 0,
 						"y": 0,
-						"w": 9,
+						"w": 24,
 						"h": 9
 					},
 					"frame": {
-						"x": 135,
-						"y": 373,
-						"w": 9,
+						"x": 176,
+						"y": 242,
+						"w": 24,
 						"h": 9
 					}
 				},
 				{
-					"filename": "fire/fly3",
+					"filename": "powerup/flower2",
 					"rotated": false,
 					"trimmed": false,
 					"sourceSize": {
-						"w": 9,
+						"w": 24,
 						"h": 9
 					},
 					"spriteSourceSize": {
 						"x": 0,
 						"y": 0,
-						"w": 9,
+						"w": 24,
 						"h": 9
 					},
 					"frame": {
-						"x": 146,
-						"y": 373,
-						"w": 9,
+						"x": 176,
+						"y": 242,
+						"w": 24,
 						"h": 9
+					}
+				},
+				{
+					"filename": "powerup/flower3",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 24,
+						"h": 9
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 24,
+						"h": 9
+					},
+					"frame": {
+						"x": 176,
+						"y": 242,
+						"w": 24,
+						"h": 9
+					}
+				},
+				{
+					"filename": "powerup/flower4",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 24,
+						"h": 9
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 24,
+						"h": 9
+					},
+					"frame": {
+						"x": 176,
+						"y": 242,
+						"w": 24,
+						"h": 9
+					}
+				},
+				{
+					"filename": "mario/standFire",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 0,
+						"w": 15,
+						"h": 32
+					},
+					"frame": {
+						"x": 181,
+						"y": 208,
+						"w": 15,
+						"h": 32
+					}
+				},
+				{
+					"filename": "mario/turnFire",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 15,
+						"h": 32
+					},
+					"frame": {
+						"x": 198,
+						"y": 208,
+						"w": 15,
+						"h": 32
+					}
+				},
+				{
+					"filename": "mario/walkFire1",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 15,
+						"h": 32
+					},
+					"frame": {
+						"x": 198,
+						"y": 208,
+						"w": 15,
+						"h": 32
 					}
 				},
 				{
@@ -906,8 +318,8 @@
 						"h": 8
 					},
 					"frame": {
-						"x": 45,
-						"y": 374,
+						"x": 202,
+						"y": 242,
 						"w": 8,
 						"h": 8
 					}
@@ -927,31 +339,10 @@
 						"h": 8
 					},
 					"frame": {
-						"x": 55,
-						"y": 374,
+						"x": 212,
+						"y": 242,
 						"w": 8,
 						"h": 8
-					}
-				},
-				{
-					"filename": "turtle/turtle1",
-					"rotated": false,
-					"trimmed": false,
-					"sourceSize": {
-						"w": 16,
-						"h": 24
-					},
-					"spriteSourceSize": {
-						"x": 0,
-						"y": 0,
-						"w": 16,
-						"h": 24
-					},
-					"frame": {
-						"x": 217,
-						"y": 211,
-						"w": 16,
-						"h": 24
 					}
 				},
 				{
@@ -963,835 +354,100 @@
 						"h": 32
 					},
 					"spriteSourceSize": {
-						"x": 0,
-						"y": 9,
-						"w": 16,
-						"h": 23
-					},
-					"frame": {
-						"x": 235,
-						"y": 209,
-						"w": 16,
-						"h": 23
-					}
-				},
-				{
-					"filename": "coin/coin1",
-					"rotated": false,
-					"trimmed": true,
-					"sourceSize": {
-						"w": 16,
-						"h": 16
-					},
-					"spriteSourceSize": {
-						"x": 0,
-						"y": 0,
-						"w": 16,
-						"h": 15
-					},
-					"frame": {
-						"x": 217,
-						"y": 237,
-						"w": 16,
-						"h": 15
-					}
-				},
-				{
-					"filename": "coin/coin2",
-					"rotated": false,
-					"trimmed": true,
-					"sourceSize": {
-						"w": 16,
-						"h": 16
-					},
-					"spriteSourceSize": {
-						"x": 0,
-						"y": 0,
-						"w": 16,
-						"h": 15
-					},
-					"frame": {
-						"x": 217,
-						"y": 237,
-						"w": 16,
-						"h": 15
-					}
-				},
-				{
-					"filename": "coin/coin3",
-					"rotated": false,
-					"trimmed": true,
-					"sourceSize": {
-						"w": 16,
-						"h": 16
-					},
-					"spriteSourceSize": {
-						"x": 0,
-						"y": 0,
-						"w": 16,
-						"h": 15
-					},
-					"frame": {
-						"x": 217,
-						"y": 237,
-						"w": 16,
-						"h": 15
-					}
-				},
-				{
-					"filename": "coin/spin1",
-					"rotated": false,
-					"trimmed": true,
-					"sourceSize": {
-						"w": 16,
-						"h": 16
-					},
-					"spriteSourceSize": {
-						"x": 0,
-						"y": 0,
-						"w": 16,
-						"h": 15
-					},
-					"frame": {
-						"x": 217,
-						"y": 237,
-						"w": 16,
-						"h": 15
-					}
-				},
-				{
-					"filename": "coin/spin2",
-					"rotated": false,
-					"trimmed": true,
-					"sourceSize": {
-						"w": 16,
-						"h": 16
-					},
-					"spriteSourceSize": {
-						"x": 0,
-						"y": 0,
-						"w": 16,
-						"h": 15
-					},
-					"frame": {
-						"x": 217,
-						"y": 237,
-						"w": 16,
-						"h": 15
-					}
-				},
-				{
-					"filename": "coin/spin3",
-					"rotated": false,
-					"trimmed": true,
-					"sourceSize": {
-						"w": 16,
-						"h": 16
-					},
-					"spriteSourceSize": {
-						"x": 0,
-						"y": 0,
-						"w": 16,
-						"h": 15
-					},
-					"frame": {
-						"x": 217,
-						"y": 237,
-						"w": 16,
-						"h": 15
-					}
-				},
-				{
-					"filename": "coin/spin4",
-					"rotated": false,
-					"trimmed": true,
-					"sourceSize": {
-						"w": 16,
-						"h": 16
-					},
-					"spriteSourceSize": {
-						"x": 0,
-						"y": 0,
-						"w": 16,
-						"h": 15
-					},
-					"frame": {
-						"x": 217,
-						"y": 237,
-						"w": 16,
-						"h": 15
-					}
-				},
-				{
-					"filename": "flag",
-					"rotated": false,
-					"trimmed": false,
-					"sourceSize": {
-						"w": 16,
-						"h": 16
-					},
-					"spriteSourceSize": {
-						"x": 0,
-						"y": 0,
-						"w": 16,
-						"h": 16
-					},
-					"frame": {
-						"x": 235,
-						"y": 234,
-						"w": 16,
-						"h": 16
-					}
-				},
-				{
-					"filename": "mario/climb1",
-					"rotated": false,
-					"trimmed": true,
-					"sourceSize": {
-						"w": 16,
-						"h": 16
-					},
-					"spriteSourceSize": {
 						"x": 1,
 						"y": 0,
-						"w": 15,
-						"h": 16
+						"w": 14,
+						"h": 32
 					},
 					"frame": {
-						"x": 200,
-						"y": 244,
-						"w": 15,
-						"h": 16
+						"x": 208,
+						"y": 165,
+						"w": 14,
+						"h": 32
 					}
 				},
 				{
-					"filename": "goomba/walk1",
-					"rotated": false,
-					"trimmed": false,
-					"sourceSize": {
-						"w": 16,
-						"h": 16
-					},
-					"spriteSourceSize": {
-						"x": 0,
-						"y": 0,
-						"w": 16,
-						"h": 16
-					},
-					"frame": {
-						"x": 182,
-						"y": 245,
-						"w": 16,
-						"h": 16
-					}
-				},
-				{
-					"filename": "goomba/walk2",
-					"rotated": false,
-					"trimmed": false,
-					"sourceSize": {
-						"w": 16,
-						"h": 16
-					},
-					"spriteSourceSize": {
-						"x": 0,
-						"y": 0,
-						"w": 16,
-						"h": 16
-					},
-					"frame": {
-						"x": 180,
-						"y": 263,
-						"w": 16,
-						"h": 16
-					}
-				},
-				{
-					"filename": "mario/dead",
-					"rotated": false,
-					"trimmed": false,
-					"sourceSize": {
-						"w": 16,
-						"h": 16
-					},
-					"spriteSourceSize": {
-						"x": 0,
-						"y": 0,
-						"w": 16,
-						"h": 16
-					},
-					"frame": {
-						"x": 180,
-						"y": 281,
-						"w": 16,
-						"h": 16
-					}
-				},
-				{
-					"filename": "mario/jump",
-					"rotated": false,
-					"trimmed": false,
-					"sourceSize": {
-						"w": 16,
-						"h": 16
-					},
-					"spriteSourceSize": {
-						"x": 0,
-						"y": 0,
-						"w": 16,
-						"h": 16
-					},
-					"frame": {
-						"x": 180,
-						"y": 299,
-						"w": 16,
-						"h": 16
-					}
-				},
-				{
-					"filename": "other/trampoline1",
+					"filename": "mario/fire",
 					"rotated": false,
 					"trimmed": true,
 					"sourceSize": {
 						"w": 16,
-						"h": 31
-					},
-					"spriteSourceSize": {
-						"x": 0,
-						"y": 15,
-						"w": 16,
-						"h": 16
-					},
-					"frame": {
-						"x": 180,
-						"y": 317,
-						"w": 16,
-						"h": 16
-					}
-				},
-				{
-					"filename": "powerup/1up",
-					"rotated": false,
-					"trimmed": false,
-					"sourceSize": {
-						"w": 16,
-						"h": 16
-					},
-					"spriteSourceSize": {
-						"x": 0,
-						"y": 0,
-						"w": 16,
-						"h": 16
-					},
-					"frame": {
-						"x": 217,
-						"y": 254,
-						"w": 16,
-						"h": 16
-					}
-				},
-				{
-					"filename": "powerup/flower1",
-					"rotated": false,
-					"trimmed": false,
-					"sourceSize": {
-						"w": 16,
-						"h": 16
-					},
-					"spriteSourceSize": {
-						"x": 0,
-						"y": 0,
-						"w": 16,
-						"h": 16
-					},
-					"frame": {
-						"x": 235,
-						"y": 252,
-						"w": 16,
-						"h": 16
-					}
-				},
-				{
-					"filename": "mario/swim1",
-					"rotated": false,
-					"trimmed": true,
-					"sourceSize": {
-						"w": 16,
-						"h": 16
-					},
-					"spriteSourceSize": {
-						"x": 0,
-						"y": 0,
-						"w": 15,
-						"h": 16
-					},
-					"frame": {
-						"x": 200,
-						"y": 262,
-						"w": 15,
-						"h": 16
-					}
-				},
-				{
-					"filename": "powerup/flower2",
-					"rotated": false,
-					"trimmed": false,
-					"sourceSize": {
-						"w": 16,
-						"h": 16
-					},
-					"spriteSourceSize": {
-						"x": 0,
-						"y": 0,
-						"w": 16,
-						"h": 16
-					},
-					"frame": {
-						"x": 198,
-						"y": 280,
-						"w": 16,
-						"h": 16
-					}
-				},
-				{
-					"filename": "powerup/flower3",
-					"rotated": false,
-					"trimmed": false,
-					"sourceSize": {
-						"w": 16,
-						"h": 16
-					},
-					"spriteSourceSize": {
-						"x": 0,
-						"y": 0,
-						"w": 16,
-						"h": 16
-					},
-					"frame": {
-						"x": 198,
-						"y": 298,
-						"w": 16,
-						"h": 16
-					}
-				},
-				{
-					"filename": "powerup/flower4",
-					"rotated": false,
-					"trimmed": false,
-					"sourceSize": {
-						"w": 16,
-						"h": 16
-					},
-					"spriteSourceSize": {
-						"x": 0,
-						"y": 0,
-						"w": 16,
-						"h": 16
-					},
-					"frame": {
-						"x": 198,
-						"y": 316,
-						"w": 16,
-						"h": 16
-					}
-				},
-				{
-					"filename": "powerup/star1",
-					"rotated": false,
-					"trimmed": false,
-					"sourceSize": {
-						"w": 16,
-						"h": 16
-					},
-					"spriteSourceSize": {
-						"x": 0,
-						"y": 0,
-						"w": 16,
-						"h": 16
-					},
-					"frame": {
-						"x": 217,
-						"y": 272,
-						"w": 16,
-						"h": 16
-					}
-				},
-				{
-					"filename": "powerup/star2",
-					"rotated": false,
-					"trimmed": false,
-					"sourceSize": {
-						"w": 16,
-						"h": 16
-					},
-					"spriteSourceSize": {
-						"x": 0,
-						"y": 0,
-						"w": 16,
-						"h": 16
-					},
-					"frame": {
-						"x": 235,
-						"y": 270,
-						"w": 16,
-						"h": 16
-					}
-				},
-				{
-					"filename": "powerup/star3",
-					"rotated": false,
-					"trimmed": false,
-					"sourceSize": {
-						"w": 16,
-						"h": 16
-					},
-					"spriteSourceSize": {
-						"x": 0,
-						"y": 0,
-						"w": 16,
-						"h": 16
-					},
-					"frame": {
-						"x": 216,
-						"y": 290,
-						"w": 16,
-						"h": 16
-					}
-				},
-				{
-					"filename": "powerup/star4",
-					"rotated": false,
-					"trimmed": false,
-					"sourceSize": {
-						"w": 16,
-						"h": 16
-					},
-					"spriteSourceSize": {
-						"x": 0,
-						"y": 0,
-						"w": 16,
-						"h": 16
-					},
-					"frame": {
-						"x": 216,
-						"y": 308,
-						"w": 16,
-						"h": 16
-					}
-				},
-				{
-					"filename": "powerup/super",
-					"rotated": false,
-					"trimmed": false,
-					"sourceSize": {
-						"w": 16,
-						"h": 16
-					},
-					"spriteSourceSize": {
-						"x": 0,
-						"y": 0,
-						"w": 16,
-						"h": 16
-					},
-					"frame": {
-						"x": 216,
-						"y": 326,
-						"w": 16,
-						"h": 16
-					}
-				},
-				{
-					"filename": "turtle/shell",
-					"rotated": false,
-					"trimmed": true,
-					"sourceSize": {
-						"w": 16,
-						"h": 24
-					},
-					"spriteSourceSize": {
-						"x": 0,
-						"y": 10,
-						"w": 16,
-						"h": 14
-					},
-					"frame": {
-						"x": 198,
-						"y": 334,
-						"w": 16,
-						"h": 14
-					}
-				},
-				{
-					"filename": "mario/swim2",
-					"rotated": false,
-					"trimmed": true,
-					"sourceSize": {
-						"w": 16,
-						"h": 16
-					},
-					"spriteSourceSize": {
-						"x": 0,
-						"y": 0,
-						"w": 15,
-						"h": 16
-					},
-					"frame": {
-						"x": 189,
-						"y": 350,
-						"w": 15,
-						"h": 16
-					}
-				},
-				{
-					"filename": "fire/explode2",
-					"rotated": false,
-					"trimmed": true,
-					"sourceSize": {
-						"w": 16,
-						"h": 16
+						"h": 32
 					},
 					"spriteSourceSize": {
 						"x": 1,
 						"y": 0,
 						"w": 14,
-						"h": 16
+						"h": 32
 					},
 					"frame": {
-						"x": 206,
-						"y": 350,
+						"x": 208,
+						"y": 165,
 						"w": 14,
-						"h": 16
+						"h": 32
 					}
 				},
 				{
-					"filename": "fire/explode1",
+					"filename": "mario/standSuper",
 					"rotated": false,
 					"trimmed": true,
 					"sourceSize": {
 						"w": 16,
-						"h": 16
-					},
-					"spriteSourceSize": {
-						"x": 3,
-						"y": 3,
-						"w": 10,
-						"h": 10
-					},
-					"frame": {
-						"x": 189,
-						"y": 368,
-						"w": 10,
-						"h": 10
-					}
-				},
-				{
-					"filename": "mario/bend",
-					"rotated": false,
-					"trimmed": true,
-					"sourceSize": {
-						"w": 16,
-						"h": 16
+						"h": 32
 					},
 					"spriteSourceSize": {
 						"x": 1,
 						"y": 0,
 						"w": 14,
-						"h": 16
+						"h": 32
 					},
 					"frame": {
-						"x": 222,
-						"y": 344,
+						"x": 208,
+						"y": 165,
 						"w": 14,
-						"h": 16
+						"h": 32
 					}
 				},
 				{
-					"filename": "mario/stand",
+					"filename": "mario/turnSuper",
 					"rotated": false,
 					"trimmed": true,
 					"sourceSize": {
 						"w": 16,
-						"h": 16
+						"h": 32
 					},
 					"spriteSourceSize": {
 						"x": 1,
 						"y": 0,
 						"w": 14,
-						"h": 16
+						"h": 32
 					},
 					"frame": {
-						"x": 222,
-						"y": 344,
+						"x": 208,
+						"y": 165,
 						"w": 14,
-						"h": 16
+						"h": 32
 					}
 				},
 				{
-					"filename": "mario/turn",
+					"filename": "mario/walkSuper1",
 					"rotated": false,
 					"trimmed": true,
 					"sourceSize": {
 						"w": 16,
-						"h": 16
+						"h": 32
 					},
 					"spriteSourceSize": {
 						"x": 1,
 						"y": 0,
 						"w": 14,
-						"h": 16
+						"h": 32
 					},
 					"frame": {
-						"x": 222,
-						"y": 344,
+						"x": 208,
+						"y": 165,
 						"w": 14,
-						"h": 16
-					}
-				},
-				{
-					"filename": "mario/walk1",
-					"rotated": false,
-					"trimmed": true,
-					"sourceSize": {
-						"w": 16,
-						"h": 16
-					},
-					"spriteSourceSize": {
-						"x": 1,
-						"y": 0,
-						"w": 14,
-						"h": 16
-					},
-					"frame": {
-						"x": 222,
-						"y": 344,
-						"w": 14,
-						"h": 16
-					}
-				},
-				{
-					"filename": "mario/climb0",
-					"rotated": false,
-					"trimmed": true,
-					"sourceSize": {
-						"w": 16,
-						"h": 16
-					},
-					"spriteSourceSize": {
-						"x": 1,
-						"y": 0,
-						"w": 14,
-						"h": 16
-					},
-					"frame": {
-						"x": 222,
-						"y": 362,
-						"w": 14,
-						"h": 16
-					}
-				},
-				{
-					"filename": "mario/swim3",
-					"rotated": false,
-					"trimmed": true,
-					"sourceSize": {
-						"w": 16,
-						"h": 16
-					},
-					"spriteSourceSize": {
-						"x": 0,
-						"y": 0,
-						"w": 15,
-						"h": 16
-					},
-					"frame": {
-						"x": 235,
-						"y": 288,
-						"w": 15,
-						"h": 16
-					}
-				},
-				{
-					"filename": "mario/swim4",
-					"rotated": false,
-					"trimmed": true,
-					"sourceSize": {
-						"w": 16,
-						"h": 16
-					},
-					"spriteSourceSize": {
-						"x": 0,
-						"y": 0,
-						"w": 15,
-						"h": 16
-					},
-					"frame": {
-						"x": 234,
-						"y": 306,
-						"w": 15,
-						"h": 16
-					}
-				},
-				{
-					"filename": "mario/swim5",
-					"rotated": false,
-					"trimmed": true,
-					"sourceSize": {
-						"w": 16,
-						"h": 16
-					},
-					"spriteSourceSize": {
-						"x": 0,
-						"y": 0,
-						"w": 15,
-						"h": 16
-					},
-					"frame": {
-						"x": 234,
-						"y": 324,
-						"w": 15,
-						"h": 16
-					}
-				},
-				{
-					"filename": "mario/walk2",
-					"rotated": false,
-					"trimmed": true,
-					"sourceSize": {
-						"w": 16,
-						"h": 16
-					},
-					"spriteSourceSize": {
-						"x": 1,
-						"y": 0,
-						"w": 14,
-						"h": 16
-					},
-					"frame": {
-						"x": 238,
-						"y": 342,
-						"w": 14,
-						"h": 16
-					}
-				},
-				{
-					"filename": "mario/walk3",
-					"rotated": false,
-					"trimmed": true,
-					"sourceSize": {
-						"w": 16,
-						"h": 16
-					},
-					"spriteSourceSize": {
-						"x": 1,
-						"y": 0,
-						"w": 15,
-						"h": 16
-					},
-					"frame": {
-						"x": 238,
-						"y": 360,
-						"w": 15,
-						"h": 16
+						"h": 32
 					}
 				},
 				{
@@ -1809,10 +465,31 @@
 						"h": 5
 					},
 					"frame": {
-						"x": 157,
-						"y": 373,
+						"x": 208,
+						"y": 199,
 						"w": 9,
 						"h": 5
+					}
+				},
+				{
+					"filename": "mario/walkSuper3",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 0,
+						"w": 14,
+						"h": 32
+					},
+					"frame": {
+						"x": 215,
+						"y": 206,
+						"w": 14,
+						"h": 32
 					}
 				},
 				{
@@ -1830,8 +507,50 @@
 						"h": 5
 					},
 					"frame": {
-						"x": 65,
-						"y": 374,
+						"x": 219,
+						"y": 199,
+						"w": 9,
+						"h": 5
+					}
+				},
+				{
+					"filename": "fire/fly2",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 9,
+						"h": 5
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 9,
+						"h": 5
+					},
+					"frame": {
+						"x": 219,
+						"y": 199,
+						"w": 9,
+						"h": 5
+					}
+				},
+				{
+					"filename": "fire/fly3",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 9,
+						"h": 5
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 9,
+						"h": 5
+					},
+					"frame": {
+						"x": 219,
+						"y": 199,
 						"w": 9,
 						"h": 5
 					}
@@ -1851,10 +570,1291 @@
 						"h": 5
 					},
 					"frame": {
-						"x": 65,
-						"y": 374,
+						"x": 219,
+						"y": 199,
 						"w": 9,
 						"h": 5
+					}
+				},
+				{
+					"filename": "mario/swimFire2",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 1,
+						"w": 16,
+						"h": 31
+					},
+					"frame": {
+						"x": 224,
+						"y": 165,
+						"w": 16,
+						"h": 31
+					}
+				},
+				{
+					"filename": "goomba/flat",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 16
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 4,
+						"w": 16,
+						"h": 12
+					},
+					"frame": {
+						"x": 222,
+						"y": 240,
+						"w": 16,
+						"h": 12
+					}
+				},
+				{
+					"filename": "mario/swimFire4",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 1,
+						"w": 16,
+						"h": 31
+					},
+					"frame": {
+						"x": 231,
+						"y": 198,
+						"w": 16,
+						"h": 31
+					}
+				},
+				{
+					"filename": "fire/explode3",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 16,
+						"h": 16
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 16,
+						"h": 16
+					},
+					"frame": {
+						"x": 240,
+						"y": 231,
+						"w": 16,
+						"h": 16
+					}
+				},
+				{
+					"filename": "mario/swimFire5",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 1,
+						"w": 16,
+						"h": 31
+					},
+					"frame": {
+						"x": 240,
+						"y": 88,
+						"w": 16,
+						"h": 31
+					}
+				},
+				{
+					"filename": "mario/swimFire6",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 1,
+						"w": 16,
+						"h": 31
+					},
+					"frame": {
+						"x": 240,
+						"y": 121,
+						"w": 16,
+						"h": 31
+					}
+				},
+				{
+					"filename": "mario/swimSuper2",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 1,
+						"w": 16,
+						"h": 31
+					},
+					"frame": {
+						"x": 242,
+						"y": 154,
+						"w": 16,
+						"h": 31
+					}
+				},
+				{
+					"filename": "mario/swimSuper4",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 1,
+						"w": 16,
+						"h": 31
+					},
+					"frame": {
+						"x": 249,
+						"y": 187,
+						"w": 16,
+						"h": 31
+					}
+				},
+				{
+					"filename": "mario/swimSuper5",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 1,
+						"w": 16,
+						"h": 31
+					},
+					"frame": {
+						"x": 258,
+						"y": 220,
+						"w": 16,
+						"h": 31
+					}
+				},
+				{
+					"filename": "mario/swimSuper6",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 1,
+						"w": 16,
+						"h": 31
+					},
+					"frame": {
+						"x": 258,
+						"y": 88,
+						"w": 16,
+						"h": 31
+					}
+				},
+				{
+					"filename": "other/trampoline3",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 16,
+						"h": 31
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 16,
+						"h": 31
+					},
+					"frame": {
+						"x": 258,
+						"y": 121,
+						"w": 16,
+						"h": 31
+					}
+				},
+				{
+					"filename": "mario/swimFire1",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 1,
+						"w": 15,
+						"h": 31
+					},
+					"frame": {
+						"x": 260,
+						"y": 154,
+						"w": 15,
+						"h": 31
+					}
+				},
+				{
+					"filename": "mario/swimFire3",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 1,
+						"w": 15,
+						"h": 31
+					},
+					"frame": {
+						"x": 267,
+						"y": 187,
+						"w": 15,
+						"h": 31
+					}
+				},
+				{
+					"filename": "mario/swimSuper1",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 1,
+						"w": 15,
+						"h": 31
+					},
+					"frame": {
+						"x": 276,
+						"y": 220,
+						"w": 15,
+						"h": 31
+					}
+				},
+				{
+					"filename": "mario/swimSuper3",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 1,
+						"w": 15,
+						"h": 31
+					},
+					"frame": {
+						"x": 276,
+						"y": 88,
+						"w": 15,
+						"h": 31
+					}
+				},
+				{
+					"filename": "mario/climbFire0",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 16,
+						"h": 27
+					},
+					"frame": {
+						"x": 276,
+						"y": 121,
+						"w": 16,
+						"h": 27
+					}
+				},
+				{
+					"filename": "mario/climbFire1",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 16,
+						"h": 27
+					},
+					"frame": {
+						"x": 276,
+						"y": 121,
+						"w": 16,
+						"h": 27
+					}
+				},
+				{
+					"filename": "mario/jumpFire",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 16,
+						"h": 27
+					},
+					"frame": {
+						"x": 276,
+						"y": 121,
+						"w": 16,
+						"h": 27
+					}
+				},
+				{
+					"filename": "mario/walkFire2",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 16,
+						"h": 27
+					},
+					"frame": {
+						"x": 276,
+						"y": 121,
+						"w": 16,
+						"h": 27
+					}
+				},
+				{
+					"filename": "mario/climbSuper0",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 16,
+						"h": 27
+					},
+					"frame": {
+						"x": 293,
+						"y": 88,
+						"w": 16,
+						"h": 27
+					}
+				},
+				{
+					"filename": "mario/climbSuper1",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 16,
+						"h": 27
+					},
+					"frame": {
+						"x": 293,
+						"y": 88,
+						"w": 16,
+						"h": 27
+					}
+				},
+				{
+					"filename": "mario/jumpSuper",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 16,
+						"h": 27
+					},
+					"frame": {
+						"x": 293,
+						"y": 88,
+						"w": 16,
+						"h": 27
+					}
+				},
+				{
+					"filename": "mario/walkSuper2",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 32
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 16,
+						"h": 27
+					},
+					"frame": {
+						"x": 293,
+						"y": 88,
+						"w": 16,
+						"h": 27
+					}
+				},
+				{
+					"filename": "other/trampoline2",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 31
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 7,
+						"w": 16,
+						"h": 24
+					},
+					"frame": {
+						"x": 277,
+						"y": 150,
+						"w": 16,
+						"h": 24
+					}
+				},
+				{
+					"filename": "turtle/turtle0",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 16,
+						"h": 24
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 16,
+						"h": 24
+					},
+					"frame": {
+						"x": 294,
+						"y": 117,
+						"w": 16,
+						"h": 24
+					}
+				},
+				{
+					"filename": "turtle/turtle1",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 16,
+						"h": 24
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 16,
+						"h": 24
+					},
+					"frame": {
+						"x": 311,
+						"y": 88,
+						"w": 16,
+						"h": 24
+					}
+				},
+				{
+					"filename": "flag",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 16,
+						"h": 16
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 16,
+						"h": 16
+					},
+					"frame": {
+						"x": 329,
+						"y": 88,
+						"w": 16,
+						"h": 16
+					}
+				},
+				{
+					"filename": "goomba/walk1",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 16,
+						"h": 16
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 16,
+						"h": 16
+					},
+					"frame": {
+						"x": 329,
+						"y": 106,
+						"w": 16,
+						"h": 16
+					}
+				},
+				{
+					"filename": "mario/swim1",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 16
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 15,
+						"h": 16
+					},
+					"frame": {
+						"x": 312,
+						"y": 114,
+						"w": 15,
+						"h": 16
+					}
+				},
+				{
+					"filename": "goomba/walk2",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 16,
+						"h": 16
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 16,
+						"h": 16
+					},
+					"frame": {
+						"x": 329,
+						"y": 124,
+						"w": 16,
+						"h": 16
+					}
+				},
+				{
+					"filename": "mario/swim2",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 16
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 15,
+						"h": 16
+					},
+					"frame": {
+						"x": 312,
+						"y": 132,
+						"w": 15,
+						"h": 16
+					}
+				},
+				{
+					"filename": "mario/swim3",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 16
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 15,
+						"h": 16
+					},
+					"frame": {
+						"x": 295,
+						"y": 143,
+						"w": 15,
+						"h": 16
+					}
+				},
+				{
+					"filename": "mario/climb0",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 16,
+						"h": 16
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 16,
+						"h": 16
+					},
+					"frame": {
+						"x": 329,
+						"y": 142,
+						"w": 16,
+						"h": 16
+					}
+				},
+				{
+					"filename": "mario/climb1",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 16,
+						"h": 16
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 16,
+						"h": 16
+					},
+					"frame": {
+						"x": 329,
+						"y": 142,
+						"w": 16,
+						"h": 16
+					}
+				},
+				{
+					"filename": "mario/dead",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 16,
+						"h": 16
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 16,
+						"h": 16
+					},
+					"frame": {
+						"x": 329,
+						"y": 142,
+						"w": 16,
+						"h": 16
+					}
+				},
+				{
+					"filename": "mario/half",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 16,
+						"h": 16
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 16,
+						"h": 16
+					},
+					"frame": {
+						"x": 329,
+						"y": 142,
+						"w": 16,
+						"h": 16
+					}
+				},
+				{
+					"filename": "mario/jump",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 16,
+						"h": 16
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 16,
+						"h": 16
+					},
+					"frame": {
+						"x": 329,
+						"y": 142,
+						"w": 16,
+						"h": 16
+					}
+				},
+				{
+					"filename": "mario/swim4",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 16
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 15,
+						"h": 16
+					},
+					"frame": {
+						"x": 312,
+						"y": 150,
+						"w": 15,
+						"h": 16
+					}
+				},
+				{
+					"filename": "mario/swim5",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 16
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 15,
+						"h": 16
+					},
+					"frame": {
+						"x": 295,
+						"y": 161,
+						"w": 15,
+						"h": 16
+					}
+				},
+				{
+					"filename": "other/trampoline1",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 31
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 15,
+						"w": 16,
+						"h": 16
+					},
+					"frame": {
+						"x": 329,
+						"y": 160,
+						"w": 16,
+						"h": 16
+					}
+				},
+				{
+					"filename": "mario/walk3",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 16
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 0,
+						"w": 15,
+						"h": 16
+					},
+					"frame": {
+						"x": 312,
+						"y": 168,
+						"w": 15,
+						"h": 16
+					}
+				},
+				{
+					"filename": "powerup/1up",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 16,
+						"h": 16
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 16,
+						"h": 16
+					},
+					"frame": {
+						"x": 329,
+						"y": 178,
+						"w": 16,
+						"h": 16
+					}
+				},
+				{
+					"filename": "powerup/star1",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 16,
+						"h": 16
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 16,
+						"h": 16
+					},
+					"frame": {
+						"x": 293,
+						"y": 179,
+						"w": 16,
+						"h": 16
+					}
+				},
+				{
+					"filename": "powerup/star2",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 16,
+						"h": 16
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 16,
+						"h": 16
+					},
+					"frame": {
+						"x": 311,
+						"y": 186,
+						"w": 16,
+						"h": 16
+					}
+				},
+				{
+					"filename": "powerup/star3",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 16,
+						"h": 16
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 16,
+						"h": 16
+					},
+					"frame": {
+						"x": 293,
+						"y": 197,
+						"w": 16,
+						"h": 16
+					}
+				},
+				{
+					"filename": "powerup/star4",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 16,
+						"h": 16
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 16,
+						"h": 16
+					},
+					"frame": {
+						"x": 329,
+						"y": 196,
+						"w": 16,
+						"h": 16
+					}
+				},
+				{
+					"filename": "powerup/super",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 16,
+						"h": 16
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 16,
+						"h": 16
+					},
+					"frame": {
+						"x": 311,
+						"y": 204,
+						"w": 16,
+						"h": 16
+					}
+				},
+				{
+					"filename": "coin/coin1",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 16
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 16,
+						"h": 15
+					},
+					"frame": {
+						"x": 293,
+						"y": 215,
+						"w": 16,
+						"h": 15
+					}
+				},
+				{
+					"filename": "coin/coin2",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 16
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 16,
+						"h": 15
+					},
+					"frame": {
+						"x": 293,
+						"y": 215,
+						"w": 16,
+						"h": 15
+					}
+				},
+				{
+					"filename": "coin/coin3",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 16
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 16,
+						"h": 15
+					},
+					"frame": {
+						"x": 293,
+						"y": 215,
+						"w": 16,
+						"h": 15
+					}
+				},
+				{
+					"filename": "coin/spin1",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 16
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 16,
+						"h": 15
+					},
+					"frame": {
+						"x": 293,
+						"y": 215,
+						"w": 16,
+						"h": 15
+					}
+				},
+				{
+					"filename": "coin/spin2",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 16
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 16,
+						"h": 15
+					},
+					"frame": {
+						"x": 293,
+						"y": 215,
+						"w": 16,
+						"h": 15
+					}
+				},
+				{
+					"filename": "coin/spin3",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 16
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 16,
+						"h": 15
+					},
+					"frame": {
+						"x": 293,
+						"y": 215,
+						"w": 16,
+						"h": 15
+					}
+				},
+				{
+					"filename": "coin/spin4",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 16
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 16,
+						"h": 15
+					},
+					"frame": {
+						"x": 293,
+						"y": 215,
+						"w": 16,
+						"h": 15
+					}
+				},
+				{
+					"filename": "turtle/shell",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 24
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 10,
+						"w": 16,
+						"h": 14
+					},
+					"frame": {
+						"x": 329,
+						"y": 214,
+						"w": 16,
+						"h": 14
+					}
+				},
+				{
+					"filename": "fire/explode2",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 16
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 0,
+						"w": 14,
+						"h": 16
+					},
+					"frame": {
+						"x": 311,
+						"y": 222,
+						"w": 14,
+						"h": 16
+					}
+				},
+				{
+					"filename": "mario/bend",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 16
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 0,
+						"w": 14,
+						"h": 16
+					},
+					"frame": {
+						"x": 293,
+						"y": 232,
+						"w": 14,
+						"h": 16
+					}
+				},
+				{
+					"filename": "mario/stand",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 16
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 0,
+						"w": 14,
+						"h": 16
+					},
+					"frame": {
+						"x": 293,
+						"y": 232,
+						"w": 14,
+						"h": 16
+					}
+				},
+				{
+					"filename": "mario/turn",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 16
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 0,
+						"w": 14,
+						"h": 16
+					},
+					"frame": {
+						"x": 293,
+						"y": 232,
+						"w": 14,
+						"h": 16
+					}
+				},
+				{
+					"filename": "mario/walk1",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 16
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 0,
+						"w": 14,
+						"h": 16
+					},
+					"frame": {
+						"x": 293,
+						"y": 232,
+						"w": 14,
+						"h": 16
+					}
+				},
+				{
+					"filename": "mario/walk2",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 16,
+						"h": 16
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 0,
+						"w": 14,
+						"h": 16
+					},
+					"frame": {
+						"x": 327,
+						"y": 230,
+						"w": 14,
+						"h": 16
 					}
 				}
 			]
@@ -1863,6 +1863,6 @@
 	"meta": {
 		"app": "https://www.codeandweb.com/texturepacker",
 		"version": "3.0",
-		"smartupdate": "$TexturePacker:SmartUpdate:02cfff2f2156d757cd575bb0586666f2:f2f645f0ecbfd9dec4297bc6ccbf5852:4f58bece13d73f4757a743d8358f7b7b$"
+		"smartupdate": "$TexturePacker:SmartUpdate:9c15895b789c86bd10434f8f67d07e07:7312a676c2c50fe9ae53af1bc867642d:4f58bece13d73f4757a743d8358f7b7b$"
 	}
 }
