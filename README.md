@@ -6,7 +6,7 @@ DevMan es un juego que narra las desventuras de un desarrollador que tiene que e
 
 El juego utiliza Phaser 3 como motor y está desarrollado con tecnologías web (HTML5, Javascript).
 
-Para arrancarlo sólo hace falta tener instalado npm.
+Para arrancarlo en local sólo hace falta tener instalado `npm`.
 
 ```
 npm run dev

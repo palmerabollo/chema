@@ -44,7 +44,7 @@ export default function makeAnimations(scene) {
                     return;
                 }
                 */
-                if (anim == 'bend') {
+                if (anim === 'bend') {
                     return;
                 }
                 config.key = anim + suffix;
