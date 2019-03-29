@@ -61,7 +61,7 @@ class GameScene extends Phaser.Scene {
 
 
         //var text = this.add.text(430, 108, ' sprint\nplanning\n    ⬇️', { font: '18px Arial', fill: 'white' });
-        
+
         //text.setShadow(2, 2, 'rgba(0,0,0,0.3)', 2);
         var planning = this.add.image(465, 90, 'sprint-planning');
         planning.displayWidth = '90';
@@ -425,12 +425,14 @@ class GameScene extends Phaser.Scene {
                     if (sprite.type === 'mario' && sprite.animSuffix === '') {
                         // Can't break it anyway. Bounce it a bit.
                         sprite.scene.bounceTile.restart(tile);
-                        sprite.scene.sound.playAudioSprite('sfx', 'smb_bump');
+                        // guido: avoid audio glitch
+                        // sprite.scene.sound.playAudioSprite('sfx', 'smb_bump');
                     } else {
                         // get points
                         sprite.scene.updateScore(50);
                         sprite.scene.map.removeTileAt(tile.x, tile.y, true, true, this.groundLayer);
-                        sprite.scene.sound.playAudioSprite('sfx', 'smb_breakblock');
+                        // guido: avoid audio glitch
+                        // sprite.scene.sound.playAudioSprite('sfx', 'smb_breakblock');
                         sprite.scene.blockEmitter.emitParticle(6, tile.x * 16, tile.y * 16);
                     }
                     break;

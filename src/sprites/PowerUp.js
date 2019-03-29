@@ -38,7 +38,7 @@ export default class PowerUp extends Phaser.GameObjects.Sprite {
             this.scene.tweens.add({
                 targets: this,
                 y: this.y - 50,
-                duration: 300,
+                duration: 1200,
                 onComplete: () => {
                     this.destroy();
                 }
@@ -78,7 +78,7 @@ export default class PowerUp extends Phaser.GameObjects.Sprite {
         }
         if (this.type === 'star') {
             if (this.body.blocked.down) {
-                this.body.velocity.y = -300;
+                this.body.velocity.y = -100;
             }
         }
     }
