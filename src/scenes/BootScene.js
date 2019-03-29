@@ -44,7 +44,7 @@ class BootScene extends Phaser.Scene {
         });
 
         // Support for switching between 8-bit and 16-bit tiles
-        this.load.spritesheet('tiles-16bit', 'assets/images/super-mario-16bit.png', {
+        this.load.spritesheet('tiles-16bit', 'assets/images/super-mario-16bit2.png', {
             frameWidth: 16,
             frameHeight: 16,
             spacing: 2

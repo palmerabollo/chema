@@ -49,8 +49,16 @@ export default class Mario extends Phaser.GameObjects.Sprite {
             this.alive = true;
             this.scene.music.seek = 0;
             this.scene.music.play();
-        } else if (this.y > 240 && this.alive) {
-            this.die();
+        } else if (this.y > 205 && this.alive) {
+            
+            this.y = 192;
+            if (this.left) {
+                this.x += 4;
+            }
+            else{
+                this.x -= 4;
+            }
+            // this.die();
         }
 
         // Don't do updates while entering the pipe or being dead
